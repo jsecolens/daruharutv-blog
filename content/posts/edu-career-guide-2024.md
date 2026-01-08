@@ -3,7 +3,7 @@ title: "2024년 교직원 채용 완벽 가이드"
 date: "2024-01-15"
 category: "edu-career"
 description: "올해 교직원 채용 일정과 준비 방법을 상세히 알려드립니다. 서류 준비부터 면접까지 모든 과정을 정리했습니다."
-thumbnail: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=400&fit=crop"
+thumbnail: "/images/hero-library-ai.png"
 ---
 
 ## 2024년 교직원 채용 일정
