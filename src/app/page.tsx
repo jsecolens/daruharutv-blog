@@ -1,0 +1,88 @@
+import PostCard from '@/components/PostCard';
+import Sidebar from '@/components/Sidebar';
+import { getAllPosts, categories } from '@/lib/posts';
+import Link from 'next/link';
+
+export default function Home() {
+  const posts = getAllPosts();
+  const featuredPost = posts[0];
+  const recentPosts = posts.slice(1, 5);
+
+  return (
+    <div className="max-w-6xl mx-auto px-4 py-8">
+      {/* 히어로 섹션 */}
+      <section className="mb-12">
+        <div className="text-center mb-8">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            교직원 취업 정보 & AI 활용 블로그
+          </h1>
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            교직원 취업 준비에 필요한 정보와 AI를 활용한 효율적인 준비 방법을 공유합니다.
+          </p>
+        </div>
+
+        {/* 피처드 포스트 */}
+        {featuredPost && <PostCard post={featuredPost} featured />}
+      </section>
+
+      <div className="flex flex-col lg:flex-row gap-8">
+        {/* 메인 콘텐츠 */}
+        <div className="flex-1">
+          {/* 카테고리별 미리보기 */}
+          {categories.map((category) => {
+            const categoryPosts = posts.filter((p) => p.category === category.slug).slice(0, 2);
+            if (categoryPosts.length === 0) return null;
+
+            return (
+              <section key={category.slug} className="mb-12">
+                <div className="flex items-center justify-between mb-6">
+                  <div>
+                    <h2 className="text-2xl font-bold text-gray-900">{category.name}</h2>
+                    <p className="text-gray-500 text-sm mt-1">{category.description}</p>
+                  </div>
+                  <Link
+                    href={`/category/${category.slug}`}
+                    className="text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center"
+                  >
+                    더보기
+                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </Link>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {categoryPosts.map((post) => (
+                    <PostCard key={post.id} post={post} />
+                  ))}
+                </div>
+              </section>
+            );
+          })}
+
+          {/* 최신 글 */}
+          {recentPosts.length > 0 && (
+            <section>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">최신 글</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {recentPosts.map((post) => (
+                  <PostCard key={post.id} post={post} />
+                ))}
+              </div>
+            </section>
+          )}
+        </div>
+
+        {/* 사이드바 (PC에서만 표시) */}
+        <div className="hidden lg:block w-80">
+          <Sidebar />
+        </div>
+      </div>
+
+      {/* 광고 영역 (하단) */}
+      <div className="mt-12 bg-gray-100 rounded-xl p-8 text-center">
+        <p className="text-gray-500">광고 영역 - 728 x 90</p>
+      </div>
+    </div>
+  );
+}
