@@ -3,7 +3,7 @@ title: "대학교 행정의 꽃, '교무처'는 무슨 일을 할까? (교직원
 date: "2024-01-20"
 category: "edu-career"
 description: "대학교 교직원 취업을 준비한다면 반드시 알아야 할 교무처의 핵심 업무 3가지를 완벽 정리했습니다. 교원 관리부터 수업, 학적 관리까지!"
-thumbnail: "/images/academic-affairs-1.png"
+thumbnail: "/images/academic-affairs-1.jpg"
 ---
 
 안녕하세요, 다루하루TV입니다!
@@ -18,7 +18,7 @@ thumbnail: "/images/academic-affairs-1.png"
 
 교무처의 업무는 크게 **①교원(교수) 관리, ②수업 관리, ③학적 관리** 이렇게 세 가지로 나눌 수 있습니다.
 
-![교무처 업무 개요](/images/academic-affairs-1.png)
+![교무처 업무 개요](/images/academic-affairs-1.jpg)
 
 ## 2. 교무처의 핵심 업무 3가지
 
@@ -38,7 +38,7 @@ thumbnail: "/images/academic-affairs-1.png"
 
 **특징:** 학교의 메인 활동인 '수업'을 담당하므로 타 부서와의 협조가 필수적이며, 수강신청 시즌 등에는 민원이 가장 많은 부서 중 하나입니다. (스트레스가 꽤 있는 편이라고 해요 😅)
 
-![교무처 주요 업무](/images/academic-affairs-2.png)
+![교무처 주요 업무](/images/academic-affairs-2.jpg)
 
 ### ③ 학적 관리 업무
 
