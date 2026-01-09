@@ -79,10 +79,10 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 광고 영역 (하단) */}
-      <div className="mt-12 bg-gray-100 rounded-xl p-8 text-center">
+      {/* 광고 영역 (하단) - 애드센스 승인 후 활성화 예정 */}
+      {/* <div className="mt-12 bg-gray-100 rounded-xl p-8 text-center">
         <p className="text-gray-500">광고 영역 - 728 x 90</p>
-      </div>
+      </div> */}
     </div>
   );
 }
