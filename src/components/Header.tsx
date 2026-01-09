@@ -4,7 +4,13 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const categories = [
-  { name: '교직원 취업 준비', slug: 'edu-career' },
+  {
+    name: '교직원 취업 준비',
+    slug: 'edu-career',
+    submenus: [
+      { name: '대학교 부서와 하는 일', slug: 'university-departments' }
+    ]
+  },
   { name: '취업과 AI', slug: 'ai-job' },
   { name: '내 생각', slug: 'thoughts' },
 ];
@@ -12,6 +18,7 @@ const categories = [
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
+  const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null);
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
@@ -34,11 +41,23 @@ export default function Header() {
               홈
             </Link>
 
-            {/* 카테고리 드롭다운 */}
-            <div className="relative">
+            <Link
+              href="/notice"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+            >
+              공지사항
+            </Link>
+
+            {/* 카테고리 드롭다운 (hover) */}
+            <div
+              className="relative"
+              onMouseEnter={() => setIsCategoryOpen(true)}
+              onMouseLeave={() => {
+                setIsCategoryOpen(false);
+                setActiveSubmenu(null);
+              }}
+            >
               <button
-                onClick={() => setIsCategoryOpen(!isCategoryOpen)}
-                onBlur={() => setTimeout(() => setIsCategoryOpen(false), 150)}
                 className="flex items-center text-gray-700 hover:text-blue-600 font-medium transition-colors"
               >
                 카테고리
@@ -53,15 +72,41 @@ export default function Header() {
               </button>
 
               {isCategoryOpen && (
-                <div className="absolute top-full left-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg py-2">
+                <div className="absolute top-full left-0 mt-2 w-56 bg-white border border-gray-200 rounded-lg shadow-lg py-2">
                   {categories.map((category) => (
-                    <Link
+                    <div
                       key={category.slug}
-                      href={`/category/${category.slug}`}
-                      className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                      onMouseEnter={() => setActiveSubmenu(category.slug)}
+                      onMouseLeave={() => setActiveSubmenu(null)}
+                      className="relative"
                     >
-                      {category.name}
-                    </Link>
+                      <Link
+                        href={`/category/${category.slug}`}
+                        className="flex items-center justify-between px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                      >
+                        <span>{category.name}</span>
+                        {category.submenus && category.submenus.length > 0 && (
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                          </svg>
+                        )}
+                      </Link>
+
+                      {/* 하위 메뉴 */}
+                      {category.submenus && activeSubmenu === category.slug && (
+                        <div className="absolute left-full top-0 ml-1 w-56 bg-white border border-gray-200 rounded-lg shadow-lg py-2">
+                          {category.submenus.map((submenu) => (
+                            <Link
+                              key={submenu.slug}
+                              href={`/${submenu.slug}`}
+                              className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                            >
+                              {submenu.name}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   ))}
                 </div>
               )}
@@ -102,19 +147,38 @@ export default function Header() {
                 홈
               </Link>
 
+              <Link
+                href="/notice"
+                className="px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                공지사항
+              </Link>
+
               <div className="px-4 py-2 text-sm font-semibold text-gray-500 uppercase">
                 카테고리
               </div>
 
               {categories.map((category) => (
-                <Link
-                  key={category.slug}
-                  href={`/category/${category.slug}`}
-                  className="px-6 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {category.name}
-                </Link>
+                <div key={category.slug}>
+                  <Link
+                    href={`/category/${category.slug}`}
+                    className="px-6 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg block"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {category.name}
+                  </Link>
+                  {category.submenus && category.submenus.map((submenu) => (
+                    <Link
+                      key={submenu.slug}
+                      href={`/${submenu.slug}`}
+                      className="px-10 py-2 text-sm text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-lg block"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      └ {submenu.name}
+                    </Link>
+                  ))}
+                </div>
               ))}
 
               <Link
