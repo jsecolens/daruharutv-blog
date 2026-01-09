@@ -3,7 +3,6 @@ import Link from 'next/link';
 const categories = [
   { name: '교직원 취업 준비', slug: 'edu-career' },
   { name: '취업과 AI', slug: 'ai-job' },
-  { name: '내 생각', slug: 'thoughts' },
 ];
 
 export default function Footer() {

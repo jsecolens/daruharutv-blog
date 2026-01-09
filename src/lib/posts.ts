@@ -23,13 +23,11 @@ export interface Post {
 export const categories = [
   { name: '교직원 취업 준비', slug: 'edu-career', description: '채용 정보, 서류 준비, 면접 팁' },
   { name: '취업과 AI', slug: 'ai-job', description: 'AI 도구 활용법, 효율적인 준비' },
-  { name: '내 생각', slug: 'thoughts', description: '개인 에세이, 인사이트' },
 ];
 
 const categoryNameMap: Record<string, string> = {
   'edu-career': '교직원 취업 준비',
   'ai-job': '취업과 AI',
-  'thoughts': '내 생각',
 };
 
 function calculateReadTime(content: string): string {

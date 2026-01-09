@@ -12,7 +12,6 @@ const categories = [
     ]
   },
   { name: '취업과 AI', slug: 'ai-job' },
-  { name: '내 생각', slug: 'thoughts' },
 ];
 
 export default function Header() {

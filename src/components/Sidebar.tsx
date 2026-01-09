@@ -50,11 +50,11 @@ export default function Sidebar() {
         )}
       </div>
 
-      {/* 광고 영역 (플레이스홀더) */}
-      <div className="bg-gray-100 rounded-xl p-6 text-center">
+      {/* 광고 영역 - 애드센스 승인 후 활성화 예정 */}
+      {/* <div className="bg-gray-100 rounded-xl p-6 text-center">
         <p className="text-gray-500 text-sm">광고 영역</p>
         <p className="text-gray-400 text-xs mt-1">300 x 250</p>
-      </div>
+      </div> */}
     </aside>
   );
 }

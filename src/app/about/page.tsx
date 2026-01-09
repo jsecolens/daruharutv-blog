@@ -25,10 +25,13 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">블로그 소개</h2>
         <div className="text-gray-700 space-y-4 leading-relaxed">
           <p>
-            안녕하세요! 다루하루TV에 오신 것을 환영합니다.
+            안녕하세요! 다루하루TV 블로그에 오신 것을 환영합니다.
           </p>
           <p>
-            이 블로그는 <strong>교직원 취업을 준비하는 분들</strong>과
+            다루하루TV 유튜브 채널과는 달리 텍스트 및 이미지 기반으로 한 사이트입니다.
+          </p>
+          <p>
+            교직원 취업을 준비하시는 분들과
             <strong> AI를 활용해 효율적으로 준비하고 싶은 분들</strong>을 위해 만들어졌습니다.
           </p>
           <p>
@@ -41,7 +44,7 @@ export default function AboutPage() {
       {/* 제공 콘텐츠 */}
       <section className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 mb-8">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">제공하는 콘텐츠</h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           <div className="text-center p-6 bg-blue-50 rounded-xl">
             <div className="w-12 h-12 bg-blue-600 rounded-lg mx-auto mb-4 flex items-center justify-center">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -63,18 +66,6 @@ export default function AboutPage() {
             <h3 className="font-bold text-gray-900 mb-2">취업과 AI</h3>
             <p className="text-sm text-gray-600">
               AI 도구를 활용한 효율적인 취업 준비 방법
-            </p>
-          </div>
-
-          <div className="text-center p-6 bg-purple-50 rounded-xl">
-            <div className="w-12 h-12 bg-purple-600 rounded-lg mx-auto mb-4 flex items-center justify-center">
-              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
-              </svg>
-            </div>
-            <h3 className="font-bold text-gray-900 mb-2">내 생각</h3>
-            <p className="text-sm text-gray-600">
-              취업 준비 과정에서의 인사이트와 개인적인 이야기
             </p>
           </div>
         </div>
