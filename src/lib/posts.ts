@@ -28,6 +28,7 @@ export const categories = [
 const categoryNameMap: Record<string, string> = {
   'edu-career': '교직원 취업 준비',
   'ai-job': '취업과 AI',
+  'notice': '공지사항',
 };
 
 function calculateReadTime(content: string): string {

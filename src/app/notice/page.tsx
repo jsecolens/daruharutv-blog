@@ -1,30 +1,16 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { getAllPosts } from '@/lib/posts';
 
 export const metadata: Metadata = {
   title: '공지사항 - 다루하루TV',
   description: '다루하루TV의 공지사항 및 업데이트 소식을 확인하세요.',
 };
 
-// 임시 공지사항 데이터
-const notices = [
-  {
-    id: 1,
-    title: '다루하루TV 블로그 오픈!',
-    date: '2024-01-15',
-    content: '교직원 취업 정보와 AI 활용법을 공유하는 블로그를 오픈했습니다. 많은 관심 부탁드립니다!',
-    important: true,
-  },
-  {
-    id: 2,
-    title: '정기 업데이트 안내',
-    date: '2024-01-10',
-    content: '매주 화요일과 금요일에 새로운 글이 업데이트될 예정입니다.',
-    important: false,
-  },
-];
-
 export default function NoticePage() {
+  // category가 "notice"인 글들만 필터링
+  const notices = getAllPosts().filter(post => post.category === 'notice');
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       {/* 헤더 */}
@@ -43,26 +29,31 @@ export default function NoticePage() {
 
       {/* 공지사항 목록 */}
       <div className="space-y-4">
-        {notices.map((notice) => (
-          <article
+        {notices.map((notice, index) => (
+          <Link
             key={notice.id}
-            className={`bg-white rounded-xl p-6 shadow-sm border ${
-              notice.important ? 'border-blue-300 bg-blue-50/30' : 'border-gray-100'
-            } hover:shadow-md transition-shadow`}
+            href={`/post/${notice.id}`}
+            className="block"
           >
-            <div className="flex items-start justify-between mb-3">
-              <div className="flex items-center gap-2">
-                {notice.important && (
-                  <span className="inline-block px-2 py-1 bg-blue-600 text-white text-xs font-bold rounded">
-                    중요
-                  </span>
-                )}
-                <h2 className="text-xl font-bold text-gray-900">{notice.title}</h2>
+            <article
+              className={`bg-white rounded-xl p-6 shadow-sm border ${
+                index === 0 ? 'border-blue-300 bg-blue-50/30' : 'border-gray-100'
+              } hover:shadow-md transition-shadow cursor-pointer`}
+            >
+              <div className="flex items-start justify-between mb-3">
+                <div className="flex items-center gap-2 flex-1">
+                  {index === 0 && (
+                    <span className="inline-block px-2 py-1 bg-blue-600 text-white text-xs font-bold rounded">
+                      최신
+                    </span>
+                  )}
+                  <h2 className="text-xl font-bold text-gray-900">{notice.title}</h2>
+                </div>
+                <span className="text-sm text-gray-500 whitespace-nowrap ml-4">{notice.date}</span>
               </div>
-              <span className="text-sm text-gray-500 whitespace-nowrap ml-4">{notice.date}</span>
-            </div>
-            <p className="text-gray-700 leading-relaxed">{notice.content}</p>
-          </article>
+              <p className="text-gray-700 leading-relaxed line-clamp-2">{notice.description}</p>
+            </article>
+          </Link>
         ))}
       </div>
 
