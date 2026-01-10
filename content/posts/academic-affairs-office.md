@@ -5,7 +5,7 @@ category: "university-departments"
 excerpt: "교무처의 핵심 업무와 2026년 더욱 중요해진 이유를 알아봅니다."
 featured: true
 image: "/images/academic-affairs-1.jpg"
-youtube: "https://www.youtube.com/embed/iUaLNm-eGMo?si=dRpNgOLxf0-PmxdG"
+youtube: "https://www.youtube.com/embed/2KA_rruYmuc"
 ---
 
 안녕하세요, 다루하루TV입니다!

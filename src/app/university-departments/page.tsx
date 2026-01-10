@@ -79,10 +79,6 @@ export default function UniversityDepartmentsPage() {
           <svg className="w-4 h-4 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
-          <Link href="/category/edu-career" className="hover:text-blue-600">교직원 취업 준비</Link>
-          <svg className="w-4 h-4 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
           <span className="text-gray-900">대학교 부서와 하는 일</span>
         </nav>
 
@@ -161,10 +157,10 @@ export default function UniversityDepartmentsPage() {
       {/* CTA */}
       <div className="mt-12 text-center">
         <Link
-          href="/category/edu-career"
+          href="/"
           className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
         >
-          교직원 취업 준비 글 더보기
+          블로그 홈으로
           <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
