@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 const categories = [
   {
@@ -18,6 +18,8 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
   const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null);
+  const categoryTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const submenuTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
@@ -47,10 +49,17 @@ export default function Header() {
             {/* 카테고리 드롭다운 (hover) */}
             <div
               className="relative"
-              onMouseEnter={() => setIsCategoryOpen(true)}
+              onMouseEnter={() => {
+                if (categoryTimerRef.current) {
+                  clearTimeout(categoryTimerRef.current);
+                }
+                setIsCategoryOpen(true);
+              }}
               onMouseLeave={() => {
-                setIsCategoryOpen(false);
-                setActiveSubmenu(null);
+                categoryTimerRef.current = setTimeout(() => {
+                  setIsCategoryOpen(false);
+                  setActiveSubmenu(null);
+                }, 200);
               }}
             >
               <button
@@ -68,12 +77,21 @@ export default function Header() {
               </button>
 
               {isCategoryOpen && (
-                <div className="absolute top-full left-0 mt-2 w-56 bg-white border border-gray-200 rounded-lg shadow-lg py-2">
+                <div className="absolute top-full left-0 mt-1 w-56 bg-white border border-gray-200 rounded-lg shadow-lg py-2">
                   {categories.map((category) => (
                     <div
                       key={category.slug}
-                      onMouseEnter={() => setActiveSubmenu(category.slug)}
-                      onMouseLeave={() => setActiveSubmenu(null)}
+                      onMouseEnter={() => {
+                        if (submenuTimerRef.current) {
+                          clearTimeout(submenuTimerRef.current);
+                        }
+                        setActiveSubmenu(category.slug);
+                      }}
+                      onMouseLeave={() => {
+                        submenuTimerRef.current = setTimeout(() => {
+                          setActiveSubmenu(null);
+                        }, 200);
+                      }}
                       className="relative"
                     >
                       <Link
@@ -90,7 +108,7 @@ export default function Header() {
 
                       {/* 하위 메뉴 */}
                       {category.submenus && activeSubmenu === category.slug && (
-                        <div className="absolute left-full top-0 ml-1 w-56 bg-white border border-gray-200 rounded-lg shadow-lg py-2">
+                        <div className="absolute left-full top-0 -ml-px w-56 bg-white border border-gray-200 rounded-lg shadow-lg py-2">
                           {category.submenus.map((submenu) => (
                             <Link
                               key={submenu.slug}
