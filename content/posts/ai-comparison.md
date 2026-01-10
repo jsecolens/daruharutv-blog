@@ -6,7 +6,7 @@ description: "ChatGPT, Gemini, Claude를 직접 사용해본 솔직한 경험담
 thumbnail: "/images/ai-comparison-1.jpg"
 ---
 
-<img src="/images/ai-comparison-1.jpg" alt="AI 3총사 활용하기" style="max-width: 1000px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
+<img src="/images/ai-comparison-1.jpg" alt="AI 3총사 활용하기" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 안녕하세요, 다루하루TV입니다. 오늘은 제가 직접 사용해본 AI 도구들에 대해 솔직하게 이야기해보려고 합니다. 요즘 AI 없이 취업 준비하는 건 거의 불가능한 시대가 됐죠. 저도 처음에는 반신반의했는데, 막상 써보니 정말 생각이 완전히 바뀌었습니다.
 

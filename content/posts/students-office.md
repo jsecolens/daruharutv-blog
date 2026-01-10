@@ -7,7 +7,7 @@ thumbnail: "/images/students-office-1.jpg"
 youtube: "https://www.youtube.com/embed/23dIx8FF3II"
 ---
 
-<img src="/images/students-office-1.jpg" alt="학생처 스마트 학생 서비스 센터" style="max-width: 1000px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
+<img src="/images/students-office-1.jpg" alt="학생처 스마트 학생 서비스 센터" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 안녕하세요, 다루하루TV입니다!
 

@@ -6,7 +6,7 @@ description: "10개월 만의 복귀! 유튜브와 블로그 투트랙으로 더
 thumbnail: "/images/notice01.jpg"
 ---
 
-<img src="/images/notice01.jpg" alt="다루하루TV 블로그 소개" style="max-width: 800px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
+<img src="/images/notice01.jpg" alt="다루하루TV 블로그 소개" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 안녕하세요, 다루하루TV 구독자 여러분!
 

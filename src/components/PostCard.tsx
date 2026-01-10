@@ -12,7 +12,7 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
     return (
       <Link href={`/post/${post.id}`} className="block group">
         <article className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
-          <div className="relative h-64 md:h-80">
+          <div className="relative h-80 md:h-96">
             {post.thumbnail ? (
               <Image
                 src={post.thumbnail}
@@ -23,8 +23,8 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
             ) : (
               <div className="w-full h-full bg-gradient-to-br from-blue-500 to-blue-700" />
             )}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-            <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6 text-white">
               <span className="inline-block px-3 py-1 bg-blue-600 text-sm rounded-full mb-3">
                 {post.categoryName}
               </span>
