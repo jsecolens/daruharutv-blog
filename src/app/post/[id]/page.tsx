@@ -108,7 +108,7 @@ export default async function PostPage({ params }: Props) {
 
       {/* 유튜브 영상 */}
       {post.youtube && (
-        <div className="mb-8">
+        <div className="mb-8 max-w-3xl mx-auto">
           <h3 className="text-xl font-bold text-gray-900 mb-4">관련 영상</h3>
           <div className="relative w-full pt-[56.25%] rounded-xl overflow-hidden bg-gray-100">
             <iframe
