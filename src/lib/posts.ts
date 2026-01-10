@@ -18,6 +18,7 @@ export interface Post {
   readTime: string;
   thumbnail?: string;
   youtube?: string;
+  featured?: boolean;
 }
 
 export const categories = [
@@ -29,6 +30,7 @@ const categoryNameMap: Record<string, string> = {
   'edu-career': '교직원 취업 준비',
   'ai-job': '취업과 AI',
   'notice': '공지사항',
+  'university-departments': '대학교 부서와 하는 일',
 };
 
 function calculateReadTime(content: string): string {
@@ -56,14 +58,15 @@ export function getAllPosts(): Post[] {
       return {
         id,
         title: data.title || '제목 없음',
-        description: data.description || '',
+        description: data.excerpt || data.description || '',
         content,
         category: data.category || 'thoughts',
         categoryName: categoryNameMap[data.category] || '내 생각',
         date: data.date || new Date().toISOString().split('T')[0],
         readTime: calculateReadTime(content),
-        thumbnail: data.thumbnail,
+        thumbnail: data.image || data.thumbnail,
         youtube: data.youtube,
+        featured: data.featured || false,
       } as Post;
     });
 
@@ -89,15 +92,16 @@ export async function getPostById(id: string): Promise<Post | null> {
     return {
       id,
       title: data.title || '제목 없음',
-      description: data.description || '',
+      description: data.excerpt || data.description || '',
       content,
       contentHtml,
       category: data.category || 'thoughts',
       categoryName: categoryNameMap[data.category] || '내 생각',
       date: data.date || new Date().toISOString().split('T')[0],
       readTime: calculateReadTime(content),
-      thumbnail: data.thumbnail,
+      thumbnail: data.image || data.thumbnail,
       youtube: data.youtube,
+      featured: data.featured || false,
     };
   } catch {
     return null;
