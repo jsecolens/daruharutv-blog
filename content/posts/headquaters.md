@@ -5,6 +5,7 @@ category: "university-departments"
 excerpt: "대학교의 예산과 미래를 책임지는 기획처의 역할과 2026년 중요성이 높아진 이유를 알아봅니다."
 featured: false
 image: "/images/headquaters-1.jpg"
+youtube: "https://www.youtube.com/embed/gFVB6zsriws"
 ---
 
 안녕하세요, 다루하루TV입니다!
