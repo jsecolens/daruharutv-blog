@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://blog-topaz-omega.vercel.app/sitemap.xml',
+    sitemap: 'https://daruharutv.com/sitemap.xml',
   };
 }

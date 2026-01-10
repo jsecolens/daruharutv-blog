@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getAllPosts, categories } from '@/lib/posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://blog-topaz-omega.vercel.app';
+  const baseUrl = 'https://daruharutv.com';
 
   // 기본 페이지들
   const staticPages: MetadataRoute.Sitemap = [
