@@ -1,12 +1,13 @@
 import PostCard from '@/components/PostCard';
 import Sidebar from '@/components/Sidebar';
-import { getAllPosts, categories } from '@/lib/posts';
+import { getAllPosts, categories, getPostById } from '@/lib/posts';
 import Link from 'next/link';
 
-export default function Home() {
+export default async function Home() {
   const posts = getAllPosts();
-  const featuredPost = posts[0];
-  const recentPosts = posts.slice(1, 5);
+  // 교무처 글을 히어로 섹션에 고정
+  const featuredPost = await getPostById('academic-affairs-office');
+  const recentPosts = posts.slice(0, 4);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
