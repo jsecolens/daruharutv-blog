@@ -1,9 +1,9 @@
 ---
 title: "AI 시대의 학생처, 무엇이 달라졌을까? (교직원 취업 AtoZ)"
-date: "2026-01-10"
-category: "edu-career"
-description: "대학의 활기를 책임지는 학생처! 2026년 AI 시대에 맞춰 진화한 학생처의 업무와 취업 준비 전략을 알아봅니다."
-thumbnail: "/images/students-office-1.jpg"
+date: "2026-01-08"
+category: "university-departments"
+excerpt: "대학의 활기를 책임지는 학생처! 2026년 AI 시대에 맞춰 진화한 학생처의 업무와 취업 준비 전략을 알아봅니다."
+image: "/images/students-office-1.jpg"
 youtube: "https://www.youtube.com/embed/23dIx8FF3II"
 ---
 
