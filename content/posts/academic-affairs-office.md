@@ -4,6 +4,7 @@ date: "2026-01-09"
 category: "edu-career"
 description: "대학교 교직원 취업을 준비한다면 반드시 알아야 할 교무처의 핵심 업무 3가지를 완벽 정리했습니다. 교원 관리부터 수업, 학적 관리까지!"
 thumbnail: "/images/academic-affairs-1.jpg"
+youtube: "https://www.youtube.com/embed/2KA_rruYmuc"
 ---
 
 안녕하세요, 다루하루TV입니다!
