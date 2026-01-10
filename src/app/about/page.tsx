@@ -11,10 +11,7 @@ export default function AboutPage() {
     <div className="max-w-4xl mx-auto px-4 py-12">
       {/* 헤더 */}
       <header className="text-center mb-12">
-        <div className="w-24 h-24 bg-blue-600 rounded-full mx-auto mb-6 flex items-center justify-center">
-          <span className="text-white text-4xl font-bold">D</span>
-        </div>
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">About 다루하루TV</h1>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">About 다루하루TV 블로그</h1>
         <p className="text-xl text-gray-600">
           교직원 취업 정보와 AI 활용법을 공유합니다
         </p>
