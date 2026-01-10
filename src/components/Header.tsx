@@ -24,10 +24,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* 로고 */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">D</span>
-            </div>
+          <Link href="/" className="flex items-center">
             <span className="text-xl font-bold text-gray-900">다루하루TV 블로그</span>
           </Link>
 
