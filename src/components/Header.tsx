@@ -112,7 +112,7 @@ export default function Header() {
                           {category.submenus.map((submenu) => (
                             <Link
                               key={submenu.slug}
-                              href={`/${submenu.slug}`}
+                              href={`/category/${submenu.slug}`}
                               className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors"
                             >
                               {submenu.name}
@@ -185,7 +185,7 @@ export default function Header() {
                   {category.submenus && category.submenus.map((submenu) => (
                     <Link
                       key={submenu.slug}
-                      href={`/${submenu.slug}`}
+                      href={`/category/${submenu.slug}`}
                       className="px-10 py-2 text-sm text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-lg block"
                       onClick={() => setIsMenuOpen(false)}
                     >

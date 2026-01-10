@@ -23,6 +23,7 @@ export interface Post {
 
 export const categories = [
   { name: '교직원 취업 준비', slug: 'edu-career', description: '채용 정보, 서류 준비, 면접 팁' },
+  { name: '대학교 부서와 하는 일', slug: 'university-departments', description: '대학교 주요 부서의 역할과 업무' },
   { name: '취업과 AI', slug: 'ai-job', description: 'AI 도구 활용법, 효율적인 준비' },
 ];
 
