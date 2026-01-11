@@ -1,10 +1,10 @@
 ---
-title: "대학의 안살림을 책임지는 '총무처' & '평생교육원' 알아보기 (교직원 취업 AtoZ)"
-date: "2026-01-11"
+title: "대학의 안살림을 책임지는 총무처 & 제2의 배움터 평생교육원 알아보기"
+date: "2026-01-12"
 category: "university-departments"
 excerpt: "대학 운영의 핵심 부서인 총무처와 평생교육원의 업무와 역할을 알아봅니다."
 featured: false
-image: "/images/general-affairs-1.jpg"
+image: "/images/general-affairs-2.jpg"
 ---
 
 안녕하세요, 다루하루TV입니다!
@@ -15,7 +15,7 @@ image: "/images/general-affairs-1.jpg"
 
 ## Part 1. 대학의 안살림꾼, '총무처'
 
-<img src="/images/general-affairs-1.jpg" alt="총무처 업무" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
+<img src="/images/general-affairs-2.jpg" alt="총무처 업무" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 총무처는 일반 회사에도 있는 부서라 아마 익숙하실 텐데요. 하는 일도 비슷합니다. 다만 학교라는 특수성 때문에 '등록금 관리' 업무가 추가된다는 점이 차이점이죠.
 
@@ -97,7 +97,7 @@ image: "/images/general-affairs-1.jpg"
 
 ## Part 2. 제2의 배움터, '평생교육원'
 
-<img src="/images/general-affairs-2.jpg" alt="평생교육원 업무" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
+<img src="/images/general-affairs-1.jpg" alt="평생교육원 업무" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 최근 '평생 교육'의 중요성이 강조되면서 대학에서도 일반인을 위한 다양한 교육 과정을 운영하고 있는데, 바로 평생교육원이 그 역할을 합니다.
 
