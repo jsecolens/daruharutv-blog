@@ -1,6 +1,6 @@
 ---
 title: "대학 연구의 든든한 지원군, '연구처'는 무슨 일을 할까? (교직원 취업 AtoZ)"
-date: "2026-01-12"
+date: "2026-01-13"
 category: "university-departments"
 excerpt: "대학 연구 활동을 지원하는 연구처의 핵심 업무와 AI 시대의 새로운 역할을 알아봅니다."
 featured: false
