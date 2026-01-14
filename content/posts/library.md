@@ -5,6 +5,7 @@ category: "university-departments"
 excerpt: "대학의 디지털 인프라를 책임지는 정보전산처와 학술 정보의 보고인 도서관의 업무를 알아봅니다."
 featured: false
 image: "/images/library-1.jpg"
+youtube: "https://www.youtube.com/embed/zsrl3VQ6YmU"
 ---
 
 안녕하세요, 다루하루TV입니다!
@@ -222,7 +223,3 @@ AI 챗봇 사서: 24시간 도서 검색을 도와주고, 도서관 이용 방�
 IT 관련 전공자나 사서 자격증을 가진 분들이라면 이쪽 부서에 관심을 가져보시는 것을 추천합니다. 기술로 대학을 혁신하는 재미와, 지식과 정보로 학생들을 돕는 보람을 동시에 느낄 수 있는 곳입니다.
 
 다음 포스팅에서는 많은 분들이 궁금해하시는 '단과대학 행정실'과 '산학협력단'의 구체적인 업무 이야기로 찾아오겠습니다.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
-  <iframe src="https://www.youtube.com/embed/zsrl3VQ6YmU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
-</div>

@@ -5,6 +5,7 @@ category: "university-departments"
 excerpt: "대학 연구 활동을 지원하는 연구처의 핵심 업무와 AI 시대의 새로운 역할을 알아봅니다."
 featured: false
 image: "/images/lab-office-1.jpg"
+youtube: "https://www.youtube.com/embed/zsrl3VQ6YmU"
 ---
 
 안녕하세요, 다루하루TV입니다!
