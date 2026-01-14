@@ -1,6 +1,6 @@
 ---
 title: "스마트 캠퍼스의 심장, '정보전산처'와 '도서관'"
-date: "2026-01-13"
+date: "2026-01-14"
 category: "university-departments"
 excerpt: "대학의 디지털 인프라를 책임지는 정보전산처와 학술 정보의 보고인 도서관의 업무를 알아봅니다."
 featured: false
