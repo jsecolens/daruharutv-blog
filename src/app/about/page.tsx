@@ -70,9 +70,9 @@ export default function AboutPage() {
 
       {/* 연락처 */}
       <section className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 mb-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">연락하기</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">유튜브 채널</h2>
         <p className="text-gray-700 mb-4">
-          궁금한 점이나 다루었으면 하는 주제가 있다면 언제든 연락주세요.
+          다루하루TV 공식 유튜브 채널을 통하여 교직원 취업 관련 더 많은 정보를 확인해보세요.
         </p>
         <div className="flex flex-wrap gap-4">
           <a
