@@ -43,10 +43,10 @@ export default function RecruitmentPage() {
           🎓 전국 대학 채용 공고 검색
         </h1>
         <p className="text-xl text-gray-600 mb-2">
-          전국 202개 사립대학교 교직원 채용 정보
+          전국 사립대학교 교직원 채용 정보
         </p>
         <p className="text-sm text-gray-500">
-          마지막 업데이트: {universitiesData.lastUpdated} | 데이터 출처: 교육부 대학알리미
+          Ver.23 | 대학 리스트: 교육부 대학알리미 기준
         </p>
       </header>
 
