@@ -198,16 +198,6 @@ export default function RecruitmentPage() {
           <p className="text-gray-400 text-sm mt-2">다른 검색어나 지역을 선택해보세요.</p>
         </div>
       )}
-
-      {/* 푸터 안내 */}
-      <div className="mt-12 bg-gray-50 rounded-xl p-6 text-center">
-        <p className="text-sm text-gray-600 mb-2">
-          💬 정보 제보나 문의사항이 있으시면 다루하루TV 유튜브 채널로 연락주세요.
-        </p>
-        <p className="text-xs text-gray-500">
-          여러분의 소중한 제보가 모두의 취업 준비에 도움이 됩니다.
-        </p>
-      </div>
     </div>
   );
 }
