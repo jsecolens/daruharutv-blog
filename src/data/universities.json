@@ -115,7 +115,7 @@
       "type": "대학교",
       "category": "사립",
       "region": "충북",
-      "name": "건국대학교(글로컬) _분교",
+      "name": "건국대학교(글로컬)",
       "recruitmentUrl": "http://www.konkuk.ac.kr/jsp/Plaza/plaza_01_01.jsp",
       "previousUrl": "https://www.kku.ac.kr/mbshome/mbs/wwwkr/html/staff_recruit_20230601.html",
       "note": "공지사항 검색창에서 \"글로컬캠퍼스 일반직원\"이라고 검색하면 이전 채용 공고 확인 가능"
@@ -295,7 +295,7 @@
       "type": "대학교",
       "category": "사립",
       "region": "세종",
-      "name": "고려대학교(세종) _분교",
+      "name": "고려대학교(세종)",
       "recruitmentUrl": "https://gms.korea.ac.kr:8051/recruit/index_staff.jsp",
       "previousUrl": "https://gms.korea.ac.kr:8051/recruit/index_staff.jsp",
       "note": ""
@@ -625,7 +625,7 @@
       "type": "대학교",
       "category": "사립",
       "region": "경북",
-      "name": "동국대학교(WISE) _분교",
+      "name": "동국대학교(WISE)",
       "recruitmentUrl": "https://www.dongguk.edu/article/EMPLHIRE/list",
       "previousUrl": "https://www.dongguk.edu/article/EMPLHIRE/detail/26748603",
       "note": ""
@@ -1235,7 +1235,7 @@
       "type": "대학교",
       "category": "사립",
       "region": "강원",
-      "name": "연세대학교(미래) _분교",
+      "name": "연세대학교(미래)",
       "recruitmentUrl": "https://mirae.yonsei.ac.kr/wj/1370/subview.do",
       "previousUrl": "https://mirae.yonsei.ac.kr/wj/1370/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGd2olMkYxMTIlMkY5NDE2MzMlMkZhcnRjbFZpZXcuZG8lM0ZwYWdlJTNEMyUyNmZpbmRUeXBlJTNEJTI2ZmluZFdvcmQlM0QlMjZmaW5kQ2xTZXElM0QlMjZmaW5kT3Bud3JkJTNEJTI2cmdzQmduZGVTdHIlM0QlMjZyZ3NFbmRkZVN0ciUzRCUyNnBhc3N3b3JkJTNEJTI2",
       "note": ""
@@ -1905,7 +1905,7 @@
       "type": "대학교",
       "category": "사립",
       "region": "경기",
-      "name": "한양대학교(ERICA) _분교",
+      "name": "한양대학교(ERICA)",
       "recruitmentUrl": "https://hyu.recruiter.co.kr/appsite/company/index",
       "previousUrl": "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=44365745",
       "note": ""
