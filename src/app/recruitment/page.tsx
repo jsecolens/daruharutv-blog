@@ -149,17 +149,10 @@ export default function RecruitmentPage() {
               )}
               {!university.recruitmentUrl && !university.previousUrl && (
                 <p className="text-sm text-gray-500 text-center py-2">
-                  채용 공고 정보 없음
+                  📋 채용 공고 확인 중
                 </p>
               )}
             </div>
-
-            {/* 비고 */}
-            {university.note && (
-              <p className="mt-3 text-xs text-gray-500 border-t border-gray-200 pt-3">
-                {university.note}
-              </p>
-            )}
           </div>
         ))}
       </div>
