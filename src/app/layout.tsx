@@ -31,6 +31,19 @@ export default function RootLayout({
           rel="stylesheet"
         />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5871122852254069" crossOrigin="anonymous"></script>
+
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSLSEP4HS3"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-NSLSEP4HS3');
+            `,
+          }}
+        />
       </head>
       <body className="min-h-screen flex flex-col bg-gray-50">
         <Header />
