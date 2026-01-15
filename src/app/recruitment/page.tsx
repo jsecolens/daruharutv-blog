@@ -20,6 +20,16 @@ export default function RecruitmentPage() {
 
   const universities: University[] = universitiesData.universities;
 
+  // URL에서 도메인 추출 함수
+  const extractDomain = (url: string): string => {
+    try {
+      const urlObj = new URL(url);
+      return urlObj.hostname;
+    } catch {
+      return '';
+    }
+  };
+
   // 지역 목록 추출
   const regions = useMemo(() => {
     const uniqueRegions = Array.from(new Set(universities.map(u => u.region)));
@@ -54,17 +64,18 @@ export default function RecruitmentPage() {
       <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
         <h2 className="font-bold text-gray-900 mb-3">📌 이용 안내</h2>
         <ul className="text-sm text-gray-700 space-y-2">
-          <li>• 대학교 교직원 취업을 준비하실 때 각 대학의 채용 공고를 하나하나 찾는 것은 매우 고된 작업입니다. 특히 대학 홈페이지마다 구조가 달라 채용 공고 게시판을 찾는 것조차 어렵습니다.</li>
-          <li>• 이러한 불편함을 해소하고자 전국 4년제 사립대학교의 일반행정직 채용 공고 사이트를 한곳에 정리했습니다.</li>
+          <li>• 저 역시 교직원 취업을 준비하면서 각 대학의 채용 공고를 찾는 것이 얼마나 어려운지 직접 경험했습니다.</li>
+          <li>• 대학 홈페이지마다 구조가 달라 채용 공고 게시판을 찾는 것조차 쉽지 않았고, 하나하나 검색하는 데 많은 시간이 소요되었습니다.</li>
+          <li>• 이러한 어려움을 겪으신 분들께 조금이나마 도움을 드리고자, 전국 4년제 사립대학교의 일반행정직 채용 공고 사이트를 한곳에 정리했습니다.</li>
           <li>• 여기서 바로 각 대학의 채용 공고 사이트에 접속할 수 있어 시간을 크게 절약할 수 있습니다.</li>
           <li>• 대학 이름으로 검색하거나 지역별로 필터링하여 원하는 대학을 쉽게 찾을 수 있습니다.</li>
           <li>• 📢 채용 공고 링크는 지속적으로 업데이트하고 있습니다.</li>
         </ul>
       </div>
 
-      {/* 면책 조항 */}
+      {/* 유의사항 */}
       <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6 mb-8">
-        <h2 className="font-bold text-gray-900 mb-3">⚠️ 면책 조항</h2>
+        <h2 className="font-bold text-gray-900 mb-3">⚠️ 유의사항</h2>
         <ul className="text-xs text-gray-600 space-y-2">
           <li>• 본 페이지는 취업 준비생들의 편의를 위해 <strong>참고 자료로만</strong> 제공됩니다.</li>
           <li>• 일부 대학의 경우 채용 공고가 비공개되거나 링크가 변경될 수 있으며, 정보의 정확성과 최신성을 보장하지 않습니다.</li>
@@ -138,26 +149,36 @@ export default function RecruitmentPage() {
             </p>
 
             {/* 링크 버튼 */}
-            <div className="space-y-2">
+            <div className="space-y-3">
               {university.recruitmentUrl && (
-                <a
-                  href={university.recruitmentUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full px-4 py-2 bg-blue-600 text-white text-center rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
-                >
-                  📄 채용 공고 사이트
-                </a>
+                <div>
+                  <a
+                    href={university.recruitmentUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full px-4 py-2 bg-blue-600 text-white text-center rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                  >
+                    📄 채용 공고 사이트
+                  </a>
+                  <p className="text-xs text-gray-500 text-center mt-1 truncate px-2">
+                    🔗 {extractDomain(university.recruitmentUrl)}
+                  </p>
+                </div>
               )}
               {university.previousUrl && (
-                <a
-                  href={university.previousUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full px-4 py-2 bg-gray-100 text-gray-700 text-center rounded-lg hover:bg-gray-200 transition-colors text-sm font-medium"
-                >
-                  📋 이전 채용 공고
-                </a>
+                <div>
+                  <a
+                    href={university.previousUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full px-4 py-2 bg-gray-100 text-gray-700 text-center rounded-lg hover:bg-gray-200 transition-colors text-sm font-medium"
+                  >
+                    📋 이전 채용 공고
+                  </a>
+                  <p className="text-xs text-gray-500 text-center mt-1 truncate px-2">
+                    🔗 {extractDomain(university.previousUrl)}
+                  </p>
+                </div>
               )}
               {!university.recruitmentUrl && !university.previousUrl && (
                 <p className="text-sm text-gray-500 text-center py-2">
