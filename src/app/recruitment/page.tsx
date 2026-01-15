@@ -86,11 +86,11 @@ export default function RecruitmentPage() {
       </div>
 
       {/* 검색 및 필터 */}
-      <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 mb-8">
+      <div className="bg-white rounded-2xl shadow-md border-2 border-gray-300 p-6 mb-8">
         <div className="grid md:grid-cols-2 gap-4">
           {/* 검색 */}
           <div>
-            <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="search" className="block text-sm font-bold text-gray-800 mb-2">
               🔍 대학 이름 검색
             </label>
             <input
@@ -99,20 +99,20 @@ export default function RecruitmentPage() {
               placeholder="예: 서울대학교, 연세대학교..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-3 border-2 border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
             />
           </div>
 
           {/* 지역 필터 */}
           <div>
-            <label htmlFor="region" className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="region" className="block text-sm font-bold text-gray-800 mb-2">
               📍 지역 선택
             </label>
             <select
               id="region"
               value={selectedRegion}
               onChange={(e) => setSelectedRegion(e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full px-4 py-3 border-2 border-gray-400 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
             >
               {regions.map(region => (
                 <option key={region} value={region}>{region}</option>
