@@ -1,0 +1,186 @@
+'use client';
+
+import { useState, useMemo } from 'react';
+import universitiesData from '@/data/universities.json';
+
+interface University {
+  id: number;
+  type: string;
+  category: string;
+  region: string;
+  name: string;
+  recruitmentUrl: string;
+  previousUrl: string;
+  note: string;
+}
+
+export default function RecruitmentPage() {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedRegion, setSelectedRegion] = useState('전체');
+
+  const universities: University[] = universitiesData.universities;
+
+  // 지역 목록 추출
+  const regions = useMemo(() => {
+    const uniqueRegions = Array.from(new Set(universities.map(u => u.region)));
+    return ['전체', ...uniqueRegions.sort()];
+  }, [universities]);
+
+  // 필터링된 대학 목록
+  const filteredUniversities = useMemo(() => {
+    return universities.filter(university => {
+      const matchesSearch = university.name.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchesRegion = selectedRegion === '전체' || university.region === selectedRegion;
+      return matchesSearch && matchesRegion;
+    });
+  }, [universities, searchTerm, selectedRegion]);
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-12">
+      {/* 헤더 */}
+      <header className="text-center mb-12">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          🎓 전국 대학 채용 공고 검색
+        </h1>
+        <p className="text-xl text-gray-600 mb-2">
+          전국 202개 사립대학교 교직원 채용 정보
+        </p>
+        <p className="text-sm text-gray-500">
+          마지막 업데이트: {universitiesData.lastUpdated} | 데이터 출처: 교육부 대학알리미
+        </p>
+      </header>
+
+      {/* 안내 메시지 */}
+      <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+        <h2 className="font-bold text-gray-900 mb-3">📌 이용 안내</h2>
+        <ul className="text-sm text-gray-700 space-y-2">
+          <li>• 전국 4년제 사립대학교의 일반행정직 채용 공고 사이트를 정리했습니다.</li>
+          <li>• 대학 이름으로 검색하거나 지역별로 필터링할 수 있습니다.</li>
+          <li>• 일부 대학의 경우 채용 공고가 비공개되거나 링크가 변경될 수 있습니다.</li>
+          <li>• 최신 정보는 각 대학 홈페이지를 직접 확인해주세요.</li>
+        </ul>
+      </div>
+
+      {/* 검색 및 필터 */}
+      <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 mb-8">
+        <div className="grid md:grid-cols-2 gap-4">
+          {/* 검색 */}
+          <div>
+            <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-2">
+              🔍 대학 이름 검색
+            </label>
+            <input
+              id="search"
+              type="text"
+              placeholder="예: 서울대학교, 연세대학교..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            />
+          </div>
+
+          {/* 지역 필터 */}
+          <div>
+            <label htmlFor="region" className="block text-sm font-medium text-gray-700 mb-2">
+              📍 지역 선택
+            </label>
+            <select
+              id="region"
+              value={selectedRegion}
+              onChange={(e) => setSelectedRegion(e.target.value)}
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            >
+              {regions.map(region => (
+                <option key={region} value={region}>{region}</option>
+              ))}
+            </select>
+          </div>
+        </div>
+
+        {/* 검색 결과 수 */}
+        <div className="mt-4 text-center">
+          <p className="text-gray-600">
+            총 <span className="font-bold text-blue-600">{filteredUniversities.length}</span>개 대학
+          </p>
+        </div>
+      </div>
+
+      {/* 대학 목록 */}
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {filteredUniversities.map((university) => (
+          <div
+            key={university.id}
+            className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow"
+          >
+            {/* 대학 이름 */}
+            <h3 className="text-lg font-bold text-gray-900 mb-2">
+              {university.name}
+            </h3>
+
+            {/* 지역 */}
+            <p className="text-sm text-gray-600 mb-4 flex items-center">
+              <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+              </svg>
+              {university.region}
+            </p>
+
+            {/* 링크 버튼 */}
+            <div className="space-y-2">
+              {university.recruitmentUrl && (
+                <a
+                  href={university.recruitmentUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full px-4 py-2 bg-blue-600 text-white text-center rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+                >
+                  📄 채용 공고 사이트
+                </a>
+              )}
+              {university.previousUrl && (
+                <a
+                  href={university.previousUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full px-4 py-2 bg-gray-100 text-gray-700 text-center rounded-lg hover:bg-gray-200 transition-colors text-sm font-medium"
+                >
+                  📋 이전 채용 공고
+                </a>
+              )}
+              {!university.recruitmentUrl && !university.previousUrl && (
+                <p className="text-sm text-gray-500 text-center py-2">
+                  채용 공고 정보 없음
+                </p>
+              )}
+            </div>
+
+            {/* 비고 */}
+            {university.note && (
+              <p className="mt-3 text-xs text-gray-500 border-t border-gray-200 pt-3">
+                {university.note}
+              </p>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* 검색 결과 없음 */}
+      {filteredUniversities.length === 0 && (
+        <div className="text-center py-12">
+          <p className="text-gray-500 text-lg">검색 결과가 없습니다.</p>
+          <p className="text-gray-400 text-sm mt-2">다른 검색어나 지역을 선택해보세요.</p>
+        </div>
+      )}
+
+      {/* 푸터 안내 */}
+      <div className="mt-12 bg-gray-50 rounded-xl p-6 text-center">
+        <p className="text-sm text-gray-600 mb-2">
+          ⚠️ 본 정보는 참고용이며, 최신 채용 정보는 각 대학 홈페이지에서 확인하시기 바랍니다.
+        </p>
+        <p className="text-xs text-gray-500">
+          문의사항이 있으시면 다루하루TV 유튜브 채널로 연락주세요.
+        </p>
+      </div>
+    </div>
+  );
+}

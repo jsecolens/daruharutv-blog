@@ -39,6 +39,13 @@ export default function Header() {
               공지사항
             </Link>
 
+            <Link
+              href="/recruitment"
+              className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+            >
+              채용 공고 검색
+            </Link>
+
             {/* 카테고리 드롭다운 (hover) */}
             <div
               className="relative"
@@ -124,6 +131,14 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 공지사항
+              </Link>
+
+              <Link
+                href="/recruitment"
+                className="px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                채용 공고 검색
               </Link>
 
               <div className="px-4 py-2 text-sm font-semibold text-gray-500 uppercase">
