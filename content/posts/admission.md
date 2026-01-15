@@ -4,7 +4,7 @@ date: "2026-01-15"
 category: "university-departments"
 excerpt: "학생 유치의 최전선 입학처와 대학의 외교부 대외협력처의 업무를 알아봅니다."
 featured: false
-image: "/images/admission-1.jpg"
+image: "/images/admission-office.jpg"
 youtube: "https://www.youtube.com/embed/HZFqyuDPN04"
 ---
 
@@ -18,7 +18,7 @@ youtube: "https://www.youtube.com/embed/HZFqyuDPN04"
 
 ## Part 1. 인재 유치의 최전선, '입학처'
 
-<img src="/images/admission-1.jpg" alt="입학처 업무 현장" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
+<img src="/images/admission-office.jpg" alt="입학처 업무 현장" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 입학처는 학교의 존립과 직결되는 '신입생 유치'라는 막중한 사명을 띤 곳입니다. 대학의 경쟁력을 위해 우수한 학생을 선발해야 하기에, 학교 총장과 이사회의 관심이 가장 집중되는 부서이기도 합니다.
 
@@ -88,7 +88,7 @@ youtube: "https://www.youtube.com/embed/HZFqyuDPN04"
 
 **가상 캠퍼스 투어**: VR 기술을 활용해 원격으로 캠퍼스를 둘러볼 수 있는 가상 투어를 제공합니다. 지방 학생들이나 바쁜 학생들도 시간과 장소에 구애받지 않고 캠퍼스를 체험할 수 있습니다.
 
-<img src="/images/admission-2.jpg" alt="대외협력처 국제교류 현장" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
+<img src="/images/external-affairs.jpg" alt="대외협력처 국제교류 현장" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 ## Part 2. 대학의 외교부, '대외협력처'
 
