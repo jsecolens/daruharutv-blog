@@ -50,7 +50,7 @@ export default function RecruitmentPage() {
       {/* 헤더 */}
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          🎓 전국 대학 채용 공고 검색
+          🎓 전국 사립대학교 채용 공고 검색
         </h1>
         <p className="text-xl text-gray-600 mb-2">
           전국 사립대학교 교직원 채용 정보
@@ -79,6 +79,7 @@ export default function RecruitmentPage() {
         <ul className="text-xs text-gray-600 space-y-2">
           <li>• 본 페이지는 취업 준비생들의 편의를 위해 <strong>참고 자료로만</strong> 제공됩니다.</li>
           <li>• 일부 대학의 경우 채용 공고가 비공개되거나 링크가 변경될 수 있으며, 정보의 정확성과 최신성을 보장하지 않습니다.</li>
+          <li>• 제공된 채용 공고 링크는 시간이 지남에 따라 변경되거나 보안상 안전하지 않을 수 있으므로, 접속 시 주의하시기 바라며 이와 관련한 어떠한 문제에 대해서도 책임을 지지 않습니다.</li>
           <li>• 최종 지원 전에는 반드시 해당 대학의 공식 홈페이지에서 직접 확인하시기 바랍니다.</li>
           <li>• 본 정보의 이용으로 인해 발생하는 어떠한 손해에 대해서도 책임을 지지 않습니다.</li>
         </ul>
