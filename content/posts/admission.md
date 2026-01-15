@@ -88,9 +88,9 @@ youtube: "https://www.youtube.com/embed/HZFqyuDPN04"
 
 **가상 캠퍼스 투어**: VR 기술을 활용해 원격으로 캠퍼스를 둘러볼 수 있는 가상 투어를 제공합니다. 지방 학생들이나 바쁜 학생들도 시간과 장소에 구애받지 않고 캠퍼스를 체험할 수 있습니다.
 
-## Part 2. 대학의 외교부, '대외협력처'
-
 <img src="/images/admission-2.jpg" alt="대외협력처 국제교류 현장" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
+
+## Part 2. 대학의 외교부, '대외협력처'
 
 대외협력처(또는 국제교류처)는 입시를 제외한 학교의 홍보와 외국인 유학생 유치, 그리고 언론 대응을 담당합니다. 학교의 '눈, 코, 입'이 되는 부서라고 할 수 있죠.
 
