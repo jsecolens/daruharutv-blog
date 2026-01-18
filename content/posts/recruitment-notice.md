@@ -4,6 +4,7 @@ date: "2026-01-17"
 category: "notice"
 excerpt: "대학교 교직원 채용 공고를 빠르게 찾을 수 있는 새로운 기능을 소개합니다."
 featured: true
+image: "/images/posts/notice-board.jpg"
 ---
 
 안녕하세요, 다루하루TV입니다.
