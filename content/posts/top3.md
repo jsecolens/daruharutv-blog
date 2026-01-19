@@ -1,9 +1,11 @@
 ---
 title: "대학교 교직원 업무 중 가장 힘든 보직 TOP 3"
 date: "2026-01-19"
-category: "department-work"
-description: "현직 교직원이 직접 경험하고 느낀 대학교에서 가장 힘든 부서 TOP 3를 소개합니다. 입학처, 총무처, 교무처의 핵심 업무와 그 특징을 알아보세요."
-thumbnail: "/images/top3-1.jpg"
+category: "university-departments"
+excerpt: "현직 교직원이 직접 경험하고 느낀 대학교에서 가장 힘든 부서 TOP 3를 소개합니다. 입학처, 총무처, 교무처의 핵심 업무와 그 특징을 알아보세요."
+featured: false
+image: "/images/top3-1.jpg"
+youtube: "https://www.youtube.com/embed/SUNzb0AbPEk"
 ---
 
 안녕하세요, 다루하루TV입니다!
@@ -137,18 +139,3 @@ thumbnail: "/images/top3-1.jpg"
 교직원은 전반적으로 워라밸이 좋고 안정적인 직장이지만, 이런 힘든 부서도 있다는 것을 알고 들어가시면 나중에 배정받았을 때 당황하지 않고 잘 적응하실 수 있을 것입니다.
 
 여러분의 교직원 생활을 응원합니다!
-
----
-
-## 📺 영상으로 더 자세히 보기
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
-  <iframe
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;"
-    src="https://www.youtube.com/embed/SUNzb0AbPEk"
-    title="대학교 교직원이 일하기 힘든 업무 TOP 3"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
