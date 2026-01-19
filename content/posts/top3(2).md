@@ -5,6 +5,7 @@ category: "university-departments"
 excerpt: "어떤 조건을 갖춘 업무가 좋은 업무인지 현직 교직원이 알려주는 3가지 핵심 기준. 결재 라인, 물리적 거리, 민원 성격으로 부서 환경을 파악하는 방법을 소개합니다."
 featured: false
 image: "/images/top3-2-1.jpg"
+youtube: "https://www.youtube.com/embed/rOglijqwjPI"
 ---
 
 안녕하세요, 다루하루TV입니다!
