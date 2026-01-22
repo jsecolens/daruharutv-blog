@@ -25,6 +25,7 @@ export const categories = [
   { name: '교직원 취업 준비', slug: 'edu-career', description: '채용 정보, 서류 준비, 면접 팁' },
   { name: '대학교 부서와 하는 일', slug: 'university-departments', description: '대학교 주요 부서의 역할과 업무' },
   { name: '취업과 AI', slug: 'ai-job', description: 'AI 도구 활용법, 효율적인 준비' },
+  { name: '회사 생활', slug: 'office-life', description: '직장 생활 팁, MBTI, 조직 문화' },
 ];
 
 const categoryNameMap: Record<string, string> = {
@@ -32,6 +33,7 @@ const categoryNameMap: Record<string, string> = {
   'ai-job': '취업과 AI',
   'notice': '공지사항',
   'university-departments': '대학교 부서와 하는 일',
+  'office-life': '회사 생활',
 };
 
 function calculateReadTime(content: string): string {
