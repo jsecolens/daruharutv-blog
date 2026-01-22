@@ -7,6 +7,7 @@ const categories = [
   { name: '교직원 취업 준비', slug: 'edu-career' },
   { name: '대학교 부서와 하는 일', slug: 'university-departments' },
   { name: '취업과 AI', slug: 'ai-job' },
+  { name: '회사 생활', slug: 'office-life' },
 ];
 
 export default function Header() {
