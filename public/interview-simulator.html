@@ -150,6 +150,13 @@
         height: 24px;
     }
 
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
     .btn-group button {
         padding: 12px 30px;
         font-size: 1rem;
@@ -163,7 +170,8 @@
 
     .btn-start { background-color: #27ae60; color: white; }
     .btn-next { background-color: #3498db; color: white; display: none; }
-    .btn-stop { background-color: #95a5a6; color: white; margin-left: 10px; display: none; }
+    .btn-stop { background-color: #95a5a6; color: white; display: none; }
+    .btn-fullscreen { background-color: #9b59b6; color: white; }
 
     .btn-group button:active { transform: scale(0.95); }
     .btn-group button:hover { opacity: 0.9; }
@@ -185,11 +193,77 @@
         transform-origin: left;
         transition: width 1s linear;
     }
+
+    /* 전체화면 모드 스타일 */
+    .interview-wrapper:fullscreen,
+    .interview-wrapper:-webkit-full-screen {
+        background-color: #1a1a2e;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .interview-wrapper:fullscreen .title-box h2,
+    .interview-wrapper:-webkit-full-screen .title-box h2 {
+        color: #fff;
+        font-size: 2.5rem;
+    }
+
+    .interview-wrapper:fullscreen .title-box p,
+    .interview-wrapper:-webkit-full-screen .title-box p {
+        color: #bbb;
+        font-size: 1.2rem;
+    }
+
+    .interview-wrapper:fullscreen .scene-container,
+    .interview-wrapper:-webkit-full-screen .scene-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        border-radius: 15px;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+
+    .interview-wrapper:fullscreen .status-bar,
+    .interview-wrapper:-webkit-full-screen .status-bar {
+        font-size: 1.4rem;
+        color: #fff;
+    }
+
+    .interview-wrapper:fullscreen .bubble,
+    .interview-wrapper:-webkit-full-screen .bubble {
+        width: 320px;
+        font-size: 1.2rem;
+        padding: 20px 25px;
+    }
+
+    .interview-wrapper:fullscreen .timer-bar-bg,
+    .interview-wrapper:-webkit-full-screen .timer-bar-bg {
+        height: 15px;
+        max-width: 600px;
+    }
+
+    .interview-wrapper:fullscreen .btn-group button,
+    .interview-wrapper:-webkit-full-screen .btn-group button {
+        padding: 15px 40px;
+        font-size: 1.2rem;
+    }
+
+    .fullscreen-hint {
+        color: #7f8c8d;
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+
+    .interview-wrapper:fullscreen .fullscreen-hint,
+    .interview-wrapper:-webkit-full-screen .fullscreen-hint {
+        color: #888;
+    }
 </style>
 </head>
 <body>
 
-<div class="interview-wrapper">
+<div class="interview-wrapper" id="interviewWrapper">
     <div class="title-box">
         <h2>최종 면접 시뮬레이션</h2>
         <p>실제 면접장처럼 질문을 듣고 30초 안에 답변해보세요.</p>
@@ -221,10 +295,13 @@
         </div>
 
         <div class="btn-group">
+            <button class="btn-fullscreen" onclick="toggleFullscreen()">전체화면</button>
             <button class="btn-start" onclick="startInterview()">면접 시작하기</button>
             <button class="btn-next" onclick="nextQuestion()">다음 질문 받기</button>
             <button class="btn-stop" onclick="stopInterview()">종료</button>
         </div>
+
+        <p class="fullscreen-hint">전체화면으로 더욱 몰입감 있게 연습해보세요! (ESC로 나가기)</p>
     </div>
 </div>
 
@@ -249,6 +326,41 @@
 
     let timerInterval;
     let timeLeft = 30;
+
+    function toggleFullscreen() {
+        const wrapper = document.getElementById('interviewWrapper');
+        const btn = document.querySelector('.btn-fullscreen');
+
+        if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+            if (wrapper.requestFullscreen) {
+                wrapper.requestFullscreen();
+            } else if (wrapper.webkitRequestFullscreen) {
+                wrapper.webkitRequestFullscreen();
+            }
+            btn.innerText = '전체화면 나가기';
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+            }
+            btn.innerText = '전체화면';
+        }
+    }
+
+    document.addEventListener('fullscreenchange', function() {
+        const btn = document.querySelector('.btn-fullscreen');
+        if (!document.fullscreenElement) {
+            btn.innerText = '전체화면';
+        }
+    });
+
+    document.addEventListener('webkitfullscreenchange', function() {
+        const btn = document.querySelector('.btn-fullscreen');
+        if (!document.webkitFullscreenElement) {
+            btn.innerText = '전체화면';
+        }
+    });
 
     function startInterview() {
         document.querySelector('.btn-start').style.display = 'none';
