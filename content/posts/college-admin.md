@@ -1,7 +1,7 @@
 ---
 title: "대학교 조교, 교직원 취업에 도움 될까? 하는 일 & 현실 팩트 체크"
 date: "2026-01-27"
-category: "department"
+category: "university-departments"
 excerpt: "대학교 조교의 실제 업무와 학교 내 위치, 그리고 정규직 교직원 취업과의 상관관계를 솔직하게 파헤칩니다."
 featured: false
 image: "/images/college-admin-1.jpg"
