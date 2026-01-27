@@ -1,8 +1,14 @@
 import Link from 'next/link';
-import { categories, getRecentPosts } from '@/lib/posts';
+import { categories, getRecentPosts, getPostsByCategory } from '@/lib/posts';
 
 export default function Sidebar() {
   const recentPosts = getRecentPosts(5);
+
+  // 각 카테고리별 글 개수 계산
+  const categoryPostCounts = categories.reduce((acc, category) => {
+    acc[category.slug] = getPostsByCategory(category.slug).length;
+    return acc;
+  }, {} as Record<string, number>);
 
   return (
     <aside className="space-y-8">
@@ -16,7 +22,7 @@ export default function Sidebar() {
                 href={`/category/${category.slug}`}
                 className="flex items-center justify-between py-2 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-blue-600 transition-colors"
               >
-                <span>{category.name}</span>
+                <span>{category.name} ({categoryPostCounts[category.slug]})</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
