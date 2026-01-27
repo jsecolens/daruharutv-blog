@@ -9,8 +9,6 @@ image: "/images/interview-panel.jpg"
 
 안녕하세요, 다루하루TV입니다!
 
-<img src="/images/interview-panel.jpg" alt="대학교 교직원 면접장" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
-
 ---
 
 ## 왜 면접 시뮬레이션이 필요할까요?
@@ -48,7 +46,7 @@ image: "/images/interview-panel.jpg"
 
 ---
 
-<iframe src="/interview-simulator.html" width="100%" height="650" style="border: none; border-radius: 15px; margin: 2rem 0;"></iframe>
+<iframe src="/interview-simulator.html" width="100%" height="750" style="border: none; border-radius: 15px; margin: 2rem 0;"></iframe>
 
 ---
 
