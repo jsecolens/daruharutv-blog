@@ -175,12 +175,19 @@
             font-size: 0.9rem;
         }
 
-        .btn-fullscreen {
-            display: none;
-        }
-
         .fullscreen-hint {
             display: none;
+        }
+    }
+
+    /* PC에서는 전체화면 버튼 항상 표시 */
+    @media (min-width: 769px) {
+        .btn-fullscreen {
+            display: inline-block !important;
+        }
+
+        .pc-recommend {
+            display: none !important;
         }
     }
 
