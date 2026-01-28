@@ -46,7 +46,7 @@ image: "/images/interview-panel.jpg"
 
 ---
 
-<iframe src="/interview-simulator.html" width="100%" height="750" style="border: none; border-radius: 15px; margin: 2rem 0;"></iframe>
+<iframe src="/interview-simulator.html" width="100%" height="580" style="border: none; border-radius: 15px; margin: 1rem 0;"></iframe>
 
 ---
 
