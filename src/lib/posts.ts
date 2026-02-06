@@ -26,6 +26,7 @@ export const categories = [
   { name: '대학교 부서와 하는 일', slug: 'university-departments', description: '대학교 주요 부서의 역할과 업무' },
   { name: '취업과 AI', slug: 'ai-job', description: 'AI 도구 활용법, 효율적인 준비' },
   { name: '회사 생활', slug: 'office-life', description: '직장 생활 팁, MBTI, 조직 문화' },
+  { name: 'TOEIC 공부', slug: 'toeic-study', description: '토익 공부법, 고득점 전략' },
 ];
 
 const categoryNameMap: Record<string, string> = {
@@ -34,6 +35,7 @@ const categoryNameMap: Record<string, string> = {
   'notice': '공지사항',
   'university-departments': '대학교 부서와 하는 일',
   'office-life': '회사 생활',
+  'toeic-study': 'TOEIC 공부',
 };
 
 function calculateReadTime(content: string): string {
