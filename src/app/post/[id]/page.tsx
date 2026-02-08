@@ -100,16 +100,9 @@ export default async function PostPage({ params }: Props) {
         </div>
       )}
 
-      {/* 본문 - HTML로 렌더링 */}
-      <div
-        className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
-        dangerouslySetInnerHTML={{ __html: post.contentHtml || '' }}
-      />
-
       {/* 유튜브 영상 */}
       {post.youtube && (
         <div className="mb-8 max-w-3xl mx-auto">
-          <h3 className="text-xl font-bold text-gray-900 mb-4">관련 영상</h3>
           <div className="relative w-full pt-[56.25%] rounded-xl overflow-hidden bg-gray-100">
             <iframe
               src={post.youtube}
@@ -121,6 +114,12 @@ export default async function PostPage({ params }: Props) {
           </div>
         </div>
       )}
+
+      {/* 본문 - HTML로 렌더링 */}
+      <div
+        className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
+        dangerouslySetInnerHTML={{ __html: post.contentHtml || '' }}
+      />
 
       {/* 광고 영역 (하단) - 애드센스 승인 후 활성화 예정 */}
       {/* <div className="bg-gray-100 rounded-xl p-6 text-center mb-8">
