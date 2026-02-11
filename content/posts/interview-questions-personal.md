@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "7개 대학 면접 경험에서 수집한 교직원 면접 기출 개인 질문 6가지를 공개합니다."
 featured: false
 image: "/images/interview-questions-personal.jpg"
+youtube: "https://www.youtube.com/embed/ad4NUFghEOQ"
 ---
 
 안녕하세요, **다루하루TV**입니다!
