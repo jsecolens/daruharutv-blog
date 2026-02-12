@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "학교 관련 면접 질문 7가지 완전 공략! 학교 뉴스, 홍보 방안, 희망 부서, 학령인구 감소 대책까지 준비하면 합격이 보입니다."
 featured: false
 image: "/images/interview-questions-school.jpg"
+youtube: "https://www.youtube.com/embed/9ATcuSudapY"
 ---
 
 안녕하세요, **다루하루TV**입니다!
