@@ -13,6 +13,13 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     siteName: "다루하루TV",
     url: 'https://daruharutv.com',
+    title: "다루하루TV - 교직원 취업 정보 & AI 활용",
+    description: "교직원 취업 정보와 AI 활용법을 공유하는 블로그입니다. 채용 정보, 면접 팁, AI 도구 활용법을 확인하세요.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "다루하루TV - 교직원 취업 정보 & AI 활용",
+    description: "교직원 취업 정보와 AI 활용법을 공유하는 블로그입니다.",
   },
 };
 

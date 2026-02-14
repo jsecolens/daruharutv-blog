@@ -38,7 +38,7 @@ youtube: "https://www.youtube.com/embed/VIDEO_ID"
 
 ### 5. 본문 구조
 ```
-안녕하세요, **다루하루TV**입니다!
+안녕하세요, 다루하루TV입니다!
 
 <img src="/images/파일명.jpg" alt="설명" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
@@ -58,7 +58,7 @@ youtube: "https://www.youtube.com/embed/VIDEO_ID"
 
 ---
 
-**관련 콘텐츠가 더 궁금하시다면?**
+관련 콘텐츠가 더 궁금하시다면?
 [다루하루TV 유튜브 채널](https://www.youtube.com/@daruharutv)에서 대학교 교직원 취업 준비에 관한 더 많은 이야기를 만나보세요!
 ```
 
@@ -90,5 +90,6 @@ git push origin master
 - 토큰/비밀번호를 대화에 직접 입력하지 말 것 (SSH 키 인증 설정 완료됨)
 - 이미지는 반드시 압축 후 사용
 - 날짜 형식: `YYYY-MM-DD` (따옴표 필수)
-- **날짜는 반드시 시스템의 "오늘 날짜"를 사용할 것 (직접 추측하지 말고 현재 날짜를 정확히 확인)**
+- 날짜는 반드시 시스템의 "오늘 날짜"를 사용할 것 (직접 추측하지 말고 현재 날짜를 정확히 확인)
+- 본문에 볼드체(**) 마크다운 사용 금지
 - 포스트 정렬: 날짜 기준 최신순
