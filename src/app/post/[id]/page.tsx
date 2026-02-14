@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getPostById, getPostsByCategory, getAllPostIds } from '@/lib/posts';
 import PostCard from '@/components/PostCard';
+import AdUnit from '@/components/AdUnit';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -82,10 +83,8 @@ export default async function PostPage({ params }: Props) {
         </div>
       </header>
 
-      {/* 광고 영역 (상단) - 애드센스 승인 후 활성화 예정 */}
-      {/* <div className="bg-gray-100 rounded-xl p-6 text-center mb-8">
-        <p className="text-gray-500 text-sm">광고 영역</p>
-      </div> */}
+      {/* 포스트 상단 광고 */}
+      <AdUnit adSlot="4569267834" adFormat="auto" className="mb-8" />
 
       {/* 썸네일 이미지 */}
       {post.thumbnail && (
@@ -121,10 +120,8 @@ export default async function PostPage({ params }: Props) {
         </div>
       )}
 
-      {/* 광고 영역 (하단) - 애드센스 승인 후 활성화 예정 */}
-      {/* <div className="bg-gray-100 rounded-xl p-6 text-center mb-8">
-        <p className="text-gray-500 text-sm">광고 영역</p>
-      </div> */}
+      {/* 포스트 하단 광고 */}
+      <AdUnit adSlot="7982007036" adFormat="auto" className="mb-8" />
 
       {/* 관련 글 */}
       {relatedPosts.length > 0 && (

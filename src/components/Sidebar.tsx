@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { categories, getRecentPosts, getPostsByCategory } from '@/lib/posts';
+import AdUnit from './AdUnit';
 
 export default function Sidebar() {
   const recentPosts = getRecentPosts(5);
@@ -67,11 +68,8 @@ export default function Sidebar() {
         )}
       </div>
 
-      {/* 광고 영역 - 애드센스 승인 후 활성화 예정 */}
-      {/* <div className="bg-gray-100 rounded-xl p-6 text-center">
-        <p className="text-gray-500 text-sm">광고 영역</p>
-        <p className="text-gray-400 text-xs mt-1">300 x 250</p>
-      </div> */}
+      {/* 사이드바 광고 */}
+      <AdUnit adSlot="5331685161" adFormat="auto" className="rounded-xl overflow-hidden" />
     </aside>
   );
 }
