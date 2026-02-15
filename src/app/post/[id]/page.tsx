@@ -47,6 +47,14 @@ export default async function PostPage({ params }: Props) {
     .filter((p) => p.id !== post.id)
     .slice(0, 3);
 
+  // 본문을 <hr> 기준으로 분할하여 중간에 광고 삽입
+  const contentHtml = post.contentHtml || '';
+  const sections = contentHtml.split(/<hr\s*\/?>/);
+  const midpoint = Math.ceil(sections.length / 2);
+  const firstHalf = sections.slice(0, midpoint).join('<hr>');
+  const secondHalf = sections.slice(midpoint).join('<hr>');
+  const hasEnoughSections = sections.length >= 3;
+
   return (
     <article className="max-w-4xl mx-auto px-4 py-8">
       {/* 브레드크럼 */}
@@ -100,10 +108,25 @@ export default async function PostPage({ params }: Props) {
       )}
 
       {/* 본문 - HTML로 렌더링 */}
-      <div
-        className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
-        dangerouslySetInnerHTML={{ __html: post.contentHtml || '' }}
-      />
+      {hasEnoughSections ? (
+        <>
+          <div
+            className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
+            dangerouslySetInnerHTML={{ __html: firstHalf }}
+          />
+          {/* 포스트 중간 광고 */}
+          <AdUnit adSlot="2326647252" adFormat="auto" className="my-8" />
+          <div
+            className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
+            dangerouslySetInnerHTML={{ __html: secondHalf }}
+          />
+        </>
+      ) : (
+        <div
+          className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
+          dangerouslySetInnerHTML={{ __html: contentHtml }}
+        />
+      )}
 
       {/* 유튜브 영상 */}
       {post.youtube && (
