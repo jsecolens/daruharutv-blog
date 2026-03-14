@@ -35,9 +35,6 @@ export default async function Home() {
         {featuredPost && <PostCard post={featuredPost} featured />}
       </section>
 
-      {/* 히어로 아래 광고 */}
-      <AdUnit adSlot="4569267834" className="mb-12" />
-
       <div className="flex flex-col lg:flex-row gap-8">
         {/* 메인 콘텐츠 */}
         <div className="flex-1">
@@ -118,8 +115,6 @@ export default async function Home() {
             </section>
           )}
 
-          {/* 하단 광고 */}
-          <AdUnit adSlot="7982007036" className="mt-12" />
         </div>
 
         {/* 사이드바 (PC에서만 표시) */}

@@ -91,9 +91,6 @@ export default async function PostPage({ params }: Props) {
         </div>
       </header>
 
-      {/* 포스트 상단 광고 */}
-      <AdUnit adSlot="4569267834" adFormat="auto" className="mb-8" />
-
       {/* 썸네일 이미지 */}
       {post.thumbnail && (
         <div className="relative h-64 md:h-96 rounded-xl overflow-hidden mb-8">
