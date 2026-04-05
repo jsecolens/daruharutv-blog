@@ -27,6 +27,7 @@ export const categories = [
   { name: '취업과 AI', slug: 'ai-job', description: 'AI 도구 활용법, 효율적인 준비' },
   { name: '회사 생활', slug: 'office-life', description: '직장 생활 팁, MBTI, 조직 문화' },
   { name: 'TOEIC 공부', slug: 'toeic-study', description: '토익 공부법, 고득점 전략' },
+  { name: '자격증', slug: 'certification', description: '자격증 시험 정보, 합격 전략' },
 ];
 
 const categoryNameMap: Record<string, string> = {

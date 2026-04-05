@@ -9,6 +9,7 @@ const categories = [
   { name: '취업과 AI', slug: 'ai-job' },
   { name: '회사 생활', slug: 'office-life' },
   { name: 'TOEIC 공부', slug: 'toeic-study' },
+  { name: '자격증', slug: 'certification' },
 ];
 
 export default function Header() {
