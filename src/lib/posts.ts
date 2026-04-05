@@ -36,6 +36,7 @@ const categoryNameMap: Record<string, string> = {
   'university-departments': '대학교 부서와 하는 일',
   'office-life': '회사 생활',
   'toeic-study': 'TOEIC 공부',
+  'certification': '자격증',
 };
 
 function calculateReadTime(content: string): string {
