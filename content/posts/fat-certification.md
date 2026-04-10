@@ -7,8 +7,6 @@ featured: false
 image: "/images/fat-certification.jpg"
 ---
 
-안녕하세요, 다루하루TV입니다!
-
 <img src="/images/fat-certification.jpg" alt="FAT 자격증 한국공인회계사회 주관 국가공인" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 회계·세무 분야 자격증 시리즈를 이어가며, 오늘은 FAT(Financial Accounting Technician, 회계정보처리) 자격증을 소개합니다. 이전에 다룬 전산회계(한국세무사회)가 케이렙(KcLep) 프로그램을 사용한다면, FAT는 실무에서 가장 많이 쓰이는 더존 Smart A 프로그램을 사용한다는 것이 가장 큰 차이입니다. 기업 현장에서 실제로 다루는 프로그램으로 시험을 치르기 때문에, 취업 후 즉시 실무에 투입될 수 있는 '즉전력'을 증명하는 자격증입니다.
@@ -150,8 +148,3 @@ FAT에서 TAT까지 순차적으로 취득하면, 더존 프로그램 기반의 
 FAT는 기업 현장에서 가장 널리 사용되는 더존 프로그램 기반의 회계 실무 자격증으로, 전산회계와 함께 취득하면 어떤 회계 환경에서도 즉시 업무에 투입 가능한 실무 역량을 증명할 수 있습니다. 비대면 시험이라 시험장 이동 부담이 없다는 것도 장점이지만, 그만큼 시험 환경 사전 점검이 중요합니다.
 
 회계 분야에 첫 발을 내딛는 분이라면 FAT 2급이나 전산회계 2급 중 하나를 선택하여 시작하고, 점차 상위 자격으로 확장해 나가는 것을 추천합니다.
-
----
-
-관련 콘텐츠가 더 궁금하시다면?
-[다루하루TV 유튜브 채널](https://www.youtube.com/@daruharutv)에서 대학교 교직원 취업 준비에 관한 더 많은 이야기를 만나보세요!

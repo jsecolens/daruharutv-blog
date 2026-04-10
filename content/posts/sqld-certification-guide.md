@@ -7,8 +7,6 @@ featured: false
 image: "/images/sqld-certification-guide.jpg"
 ---
 
-안녕하세요, 다루하루TV입니다!
-
 <img src="/images/sqld-certification-guide.jpg" alt="SQLD 자격증 정리" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 데이터의 시대가 본격화되면서 SQL 역량은 IT 분야뿐 아니라 마케팅, 기획, 금융 등 거의 모든 직무에서 요구되고 있습니다. 오늘은 SQL 역량을 공인받을 수 있는 대표적인 자격증, SQLD(SQL Developer, SQL 개발자) 자격증에 대해 시험 구성부터 합격 전략, 활용처, 상위 자격증과의 차이까지 한눈에 정리해 드리겠습니다.
@@ -142,8 +140,3 @@ ADsP(데이터분석준전문가)는 데이터 분석의 기초 이론과 통계
 SQLD는 응시자격 제한이 없고, 준비 기간이 2~4주로 짧으며, 연 4회 시험 기회가 있어 접근성이 매우 높은 자격증입니다. 그러면서도 국가공인 자격증으로서의 공신력을 갖추고 있고, 데이터가 핵심이 된 현재의 취업 시장에서 활용도가 점점 높아지고 있습니다.
 
 IT 분야 취업을 준비하는 분은 물론, 비IT 직군이지만 데이터 역량을 어필하고 싶은 분들에게도 가성비 높은 첫 번째 데이터 자격증으로 강력히 추천합니다. 다만 유효기간(2년)이 있으니 취득 후 보수교육 이수를 잊지 마세요.
-
----
-
-관련 콘텐츠가 더 궁금하시다면?
-[다루하루TV 유튜브 채널](https://www.youtube.com/@daruharutv)에서 대학교 교직원 취업 준비에 관한 더 많은 이야기를 만나보세요!

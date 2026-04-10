@@ -7,8 +7,6 @@ featured: false
 image: "/images/tat-certification.jpg"
 ---
 
-안녕하세요, 다루하루TV입니다!
-
 <img src="/images/tat-certification.jpg" alt="TAT 자격증 1급/2급 합격 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 이전 포스팅에서 FAT(회계정보처리)를 소개해 드렸는데, 오늘은 그 상위 자격인 TAT(Tax Accounting Technician, 세무정보처리) 자격증을 다루겠습니다. FAT가 회계 영역을 다룬다면 TAT는 세무 영역까지 확장하여 부가가치세, 소득세, 법인세까지 아우르는 종합적인 세무 실무 능력을 평가합니다. 한국세무사회의 전산세무와 동급에 해당하면서도, 기업 현장에서 가장 많이 쓰는 더존 Smart A 프로그램을 사용한다는 것이 핵심 차별점입니다.
@@ -136,8 +134,3 @@ TAT 2급을 취득한 상태에서 추가로 3~4개월 이상의 집중 학습�
 TAT는 기업 현장에서 가장 널리 사용되는 더존 프로그램 기반의 세무 실무 자격증으로, FAT에서 시작하여 TAT로 확장하면 회계부터 세무까지 아우르는 종합적인 실무 역량을 갖출 수 있습니다. 전산세무와 병행하여 취득하면 취업 시장에서 강력한 경쟁력이 됩니다.
 
 비대면 시험이라 시험장 이동 부담이 없지만, PC 사양, 웹캠·마이크, 인터넷 안정성 등 시험 환경 사전 점검이 필수입니다. 사전 테스트 기간을 절대 놓치지 마세요.
-
----
-
-관련 콘텐츠가 더 궁금하시다면?
-[다루하루TV 유튜브 채널](https://www.youtube.com/@daruharutv)에서 대학교 교직원 취업 준비에 관한 더 많은 이야기를 만나보세요!
