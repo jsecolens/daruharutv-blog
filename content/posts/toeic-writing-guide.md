@@ -7,8 +7,6 @@ featured: false
 image: "/images/toeic-writing-guide.jpg"
 ---
 
-안녕하세요, 다루하루TV입니다!
-
 <img src="/images/toeic-writing-guide.jpg" alt="TOEIC Writing 시험 가이드 및 정보" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 이전 포스팅에서 토익 L&R과 토익스피킹을 소개해 드렸는데요, 오늘은 YBM 토익 계열의 마지막 퍼즐인 토익 라이팅(TOEIC Writing) 시험을 다루겠습니다. 토익 L&R이 듣기·읽기를, 토익스피킹이 말하기를 평가한다면, 토익 라이팅은 영어 쓰기 능력을 측정하는 시험입니다. 취업 시장에서의 활용도는 토익·토익스피킹에 비해 낮지만, 영어 번역가 자격에는 필수적으로 요구되는 시험으로, 특정 직군을 목표로 하는 분에게는 반드시 알아야 할 시험입니다. 오늘은 토익 라이팅의 시험 구성, 점수 체계, 활용 분야, 공부법까지 정리해 드리겠습니다.
@@ -173,7 +171,3 @@ IELTS Writing이나 TOEFL Writing 교재도 에세이 작성 훈련에 도움이
 
 일반적인 취업을 목표로 한다면 후순위로 고려하되, 번역·통역·해외 진출 등 영어 쓰기 능력이 핵심인 분야를 준비하신다면 반드시 150점 이상을 확보하시기 바랍니다. 5단락 에세이 구조를 익히고 타이핑 속도를 확보하면, 짧은 기간에도 효과적으로 준비할 수 있는 시험입니다.
 
----
-
-관련 콘텐츠가 더 궁금하시다면?
-[다루하루TV 유튜브 채널](https://www.youtube.com/@daruharutv)에서 대학교 교직원 취업 준비에 관한 더 많은 이야기를 만나보세요!

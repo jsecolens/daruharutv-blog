@@ -7,8 +7,6 @@ featured: false
 image: "/images/toeic-speaking-guide.jpg"
 ---
 
-안녕하세요, 다루하루TV입니다!
-
 <img src="/images/toeic-speaking-guide.jpg" alt="TOEIC Speaking 시험 가이드 및 정보" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
 
 이전 포스팅에서 토익(TOEIC L&R)을 다뤘는데요, 오늘은 그 후속편인 토익스피킹(TOEIC Speaking)을 소개합니다. 과거에는 토익 점수만 있으면 대부분의 취업 관문을 통과할 수 있었지만, 최근에는 영어 회화 능력을 증명하는 토익스피킹이 필수화되고 있습니다. 특히 삼성, LG, 현대차 등 주요 대기업은 토익 없이도 되지만 토익스피킹은 반드시 있어야 하는 시스템으로 전환되었습니다. 오늘은 토익스피킹의 시험 구성, 등급 체계, 기업별 활용, 공부법까지 정리해 드리겠습니다.
@@ -159,7 +157,3 @@ Part 6(의견 제시)는 서론(입장 표명) → 본론(근거 2~3개) → 결
 
 목표 등급이 IM2~IM3 수준이라면 단기 집중 학습으로도 충분히 달성 가능하고, IH 이상 고득점을 목표로 한다면 Part 5·6의 논리적 답변 훈련이 핵심입니다. 템플릿 활용과 녹음 피드백을 병행하면 짧은 시간에도 효율적으로 준비할 수 있으니, 본인의 취업 목표에 맞춰 전략적으로 도전하시기 바랍니다.
 
----
-
-관련 콘텐츠가 더 궁금하시다면?
-[다루하루TV 유튜브 채널](https://www.youtube.com/@daruharutv)에서 대학교 교직원 취업 준비에 관한 더 많은 이야기를 만나보세요!
