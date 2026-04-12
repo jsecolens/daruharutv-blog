@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import PostCard from '@/components/PostCard';
+import PaginatedPostGrid from '@/components/PaginatedPostGrid';
 import Sidebar from '@/components/Sidebar';
 import { getPostsByCategory, getCategoryBySlug, categories } from '@/lib/posts';
 import Link from 'next/link';
@@ -59,17 +59,7 @@ export default async function CategoryPage({ params }: Props) {
       <div className="flex flex-col lg:flex-row gap-8">
         {/* 메인 콘텐츠 */}
         <div className="flex-1">
-          {categoryPosts.length === 0 ? (
-            <div className="bg-white rounded-xl p-12 text-center">
-              <p className="text-gray-500">아직 작성된 글이 없습니다.</p>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {categoryPosts.map((post) => (
-                <PostCard key={post.id} post={post} />
-              ))}
-            </div>
-          )}
+          <PaginatedPostGrid posts={categoryPosts} />
         </div>
 
         {/* 사이드바 */}
