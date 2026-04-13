@@ -6,6 +6,7 @@ excerpt: "민원 응대, 회의 준비, 타 부서 협업, 기타 잡무까지. 
 featured: false
 image: "/images/staff-real-work.jpg"
 youtube: "https://www.youtube.com/embed/5dZvsIzW0ww"
+relatedPosts: ["staff-daily-work", "office-sketch", "top3(2)"]
 ---
 
 안녕하세요, 다루하루TV입니다!

@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "평생교육사 자격증의 등급 구조, 과목 이수 요건, 실습 조건, 학점은행제 활용 전략, 취업처까지 총정리합니다."
 featured: false
 image: "/images/lifelong-education-instructor.jpg"
+relatedPosts: ["librarian-certification", "career-counselor", "general-affairs"]
 ---
 
 <img src="/images/lifelong-education-instructor.jpg" alt="평생교육사 자격증 완전 정복" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

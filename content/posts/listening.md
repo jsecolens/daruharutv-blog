@@ -5,6 +5,7 @@ category: "toeic-study"
 excerpt: "토익 리스닝은 리딩보다 점수를 올리기 수월한 영역입니다. 리스닝이 유리한 이유와 고득점 전략을 파트별로 정리합니다."
 featured: false
 image: "/images/listening-1.jpg"
+relatedPosts: ["reading", "toeic-study", "toeic-guide"]
 ---
 
 안녕하세요, 다루하루TV입니다!

@@ -6,6 +6,7 @@ excerpt: "AI 이미지 생성 기술로 재현한 대학교 부서별 사무실 
 featured: false
 image: "/images/office-sketch-1.jpg"
 youtube: "https://www.youtube.com/embed/NfMlA2_bJXY"
+relatedPosts: ["staff-daily-work", "staff-real-work", "international-office"]
 ---
 
 안녕하세요, 다루하루TV입니다!

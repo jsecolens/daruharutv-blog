@@ -5,6 +5,7 @@ category: "university-departments"
 excerpt: "국제교류처에서 직접 경험한 교환학생 관리, 학교 국제 의전, 학생 프로그램 관리까지. 현직자가 들려주는 국제교류처 업무의 모든 것을 자세히 풀어봅니다."
 featured: false
 image: "/images/international-office-1.jpg"
+relatedPosts: ["admission", "college-office", "office-sketch"]
 ---
 
 안녕하세요, 다루하루TV입니다!

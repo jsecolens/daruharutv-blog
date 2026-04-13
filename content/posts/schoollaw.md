@@ -6,6 +6,7 @@ excerpt: "대학교 행정의 알파이자 오메가, 학칙과 규정. 학칙�
 featured: false
 image: "/images/schoollaw-1.jpg"
 youtube: "https://www.youtube.com/embed/Qg7Cd3T5M8Y"
+relatedPosts: ["noojt", "usesystem", "first-day"]
 ---
 
 안녕하세요, 다루하루TV입니다!

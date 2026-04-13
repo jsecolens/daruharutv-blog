@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "대학교 교직원이 되려면? 사립대 자체 채용과 국립대 공무원 시험, 두 가지 경로의 차이와 준비 방법을 총정리했습니다."
 featured: false
 image: "/images/how-to-become-university-staff.jpg"
+relatedPosts: ["what-is-staff", "university-staff-hiring-season", "how-to-get-info01"]
 ---
 
 안녕하세요, 다루하루TV입니다.

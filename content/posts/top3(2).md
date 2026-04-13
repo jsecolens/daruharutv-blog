@@ -6,6 +6,7 @@ excerpt: "어떤 조건을 갖춘 업무가 좋은 업무인지 현직 교직원
 featured: false
 image: "/images/top3-2-1.jpg"
 youtube: "https://www.youtube.com/embed/rOglijqwjPI"
+relatedPosts: ["top3", "staff-daily-work", "staff-real-work"]
 ---
 
 안녕하세요, 다루하루TV입니다!

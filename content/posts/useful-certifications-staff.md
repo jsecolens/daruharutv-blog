@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "대학교 교직원 취업과 실무에서 유용하게 쓸 수 있는 자격증 3가지를 솔직하게 정리했습니다."
 featured: false
 image: "/images/useful-certifications-staff.jpg"
+relatedPosts: ["word-processor", "computer-skills-certification-guide", "administrative-agent"]
 ---
 
 안녕하세요, 다루하루TV입니다!
@@ -39,15 +40,6 @@ image: "/images/useful-certifications-staff.jpg"
 
 앞으로 AI 시대가 본격적으로 도래하면서 이 문서 작업의 양상이 어떻게 변할지는 저도 아직 확신하기 어렵습니다. 하지만 공공기관의 업무 관성을 생각해보면, 당분간은 현재의 기조가 계속 이어져 갈 것으로 보이기 때문에, 기본기를 탄탄하게 다진다는 의미에서 워드프로세서 자격증을 추천드립니다.
 
-<a href="/post/word-processor" style="display: flex; align-items: center; gap: 1rem; max-width: 700px; margin: 2rem auto; padding: 1rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
-  <img src="/images/word-processor.jpg" alt="워드프로세서 자격증" style="width: 140px; height: 90px; object-fit: cover; border-radius: 8px; flex-shrink: 0; margin: 0;" />
-  <div style="flex: 1; min-width: 0;">
-    <div style="font-size: 0.75rem; color: #2563eb; font-weight: 600; margin-bottom: 0.25rem;">📄 관련 자격증 정보</div>
-    <div style="font-size: 1rem; font-weight: 700; color: #111827; margin-bottom: 0.25rem; line-height: 1.3;">워드프로세서 자격증 정리</div>
-    <div style="font-size: 0.85rem; color: #6b7280; line-height: 1.4;">사무직 기본기를 증명하는 국가기술자격 — 시험 정보부터 공부법까지 자세히 보기</div>
-  </div>
-</a>
-
 ---
 
 ## 두 번째 추천 자격증: 컴퓨터활용능력 2급
@@ -62,15 +54,6 @@ image: "/images/useful-certifications-staff.jpg"
 
 워드프로세서와 컴퓨터활용능력 2급, 이 두 자격증은 공통적으로 비교적 빠른 시간 안에 취득할 수 있다는 장점이 있습니다. 그래서 만약 이 두 자격증을 아직 가지고 계시지 않은 분이라면, 다른 취업 준비 공부(토익, 전공 공부, 자기소개서 작성 등)와 병행하면서 한 번쯤 준비해보시는 것을 추천드립니다. 길어야 각각 한두 달 정도 투자하면 충분히 취득할 수 있는 자격증들이기 때문에, 시간 대비 효율이 정말 좋은 편이라고 할 수 있습니다.
 
-<a href="/post/computer-skills-certification-guide" style="display: flex; align-items: center; gap: 1rem; max-width: 700px; margin: 2rem auto; padding: 1rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
-  <img src="/images/computer-skills-certification-guide.jpg" alt="컴퓨터활용능력 자격증" style="width: 140px; height: 90px; object-fit: cover; border-radius: 8px; flex-shrink: 0; margin: 0;" />
-  <div style="flex: 1; min-width: 0;">
-    <div style="font-size: 0.75rem; color: #2563eb; font-weight: 600; margin-bottom: 0.25rem;">📄 관련 자격증 정보</div>
-    <div style="font-size: 1rem; font-weight: 700; color: #111827; margin-bottom: 0.25rem; line-height: 1.3;">컴퓨터활용능력(컴활) 자격증 정리</div>
-    <div style="font-size: 0.85rem; color: #6b7280; line-height: 1.4;">1급과 2급 차이부터 시험 정보, 공부법까지 자세히 보기</div>
-  </div>
-</a>
-
 ---
 
 ## 세 번째 추천 자격증: 행정사
@@ -84,15 +67,6 @@ image: "/images/useful-certifications-staff.jpg"
 다만 솔직하게 말씀드리자면, 행정사 자격증은 앞서 소개한 워드프로세서나 컴활 2급과는 결이 조금 다릅니다. 행정사는 뭐랄까, 개인 사무실을 낼 수 있는 독립적인 자격증이다 보니, 준비 기간이 최소 1년에서 길게는 2년 이상까지 걸립니다. 시험 과목도 적지 않고, 난이도도 결코 만만하지 않기 때문에 짬짬이 공부해서 딸 수 있는 수준의 자격증은 아닙니다. 그래서 꼭 필수라고는 말씀드리기 어렵지만, 요즘처럼 개개인의 경쟁력이 점점 더 중요해지는 시점에서는 교직원 취업에 있어서 일종의 '다크호스' 같은 역할을 하는 자격증이 되지 않을까 하는 생각을 해봅니다.
 
 특히 이미 교직원으로 합격하여 근무를 시작하신 분들 중에서, 장기적인 커리어 관점에서 자기계발을 고민하고 계신 분들이라면 행정사 자격증 도전은 꽤 의미 있는 선택이 될 수 있다고 봅니다. 근무하면서 배운 실무 지식과 행정사 공부에서 쌓는 이론적 지식이 서로 상호보완적으로 작용하면서, 업무 전문성을 한 단계 더 끌어올릴 수 있는 계기가 되어줄 것입니다.
-
-<a href="/post/administrative-agent" style="display: flex; align-items: center; gap: 1rem; max-width: 700px; margin: 2rem auto; padding: 1rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
-  <img src="/images/administrative-agent.jpg" alt="행정사 자격증" style="width: 140px; height: 90px; object-fit: cover; border-radius: 8px; flex-shrink: 0; margin: 0;" />
-  <div style="flex: 1; min-width: 0;">
-    <div style="font-size: 0.75rem; color: #2563eb; font-weight: 600; margin-bottom: 0.25rem;">📄 관련 자격증 정보</div>
-    <div style="font-size: 1rem; font-weight: 700; color: #111827; margin-bottom: 0.25rem; line-height: 1.3;">행정사 자격증 정리</div>
-    <div style="font-size: 0.85rem; color: #6b7280; line-height: 1.4;">시험 구성부터 개업 전망까지 자세히 보기</div>
-  </div>
-</a>
 
 ---
 

@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "교직원 취업에서 학벌이 얼마나 중요한지, 지방대 출신도 인서울 대학에 갈 수 있는지, 현직자가 경험을 바탕으로 솔직하게 알려드립니다."
 featured: true
 image: "/images/school-background-1.jpg"
+relatedPosts: ["staff-spec", "competition-rate", "staff-recruitment-age"]
 ---
 
 안녕하세요, 다루하루TV입니다!

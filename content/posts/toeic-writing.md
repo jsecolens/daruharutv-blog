@@ -5,6 +5,7 @@ category: "toeic-study"
 excerpt: "토익 라이팅 180점을 2주 만에 취득한 직장인의 실전 후기입니다. 교재 3회독 전략, AI 활용법, 영문 타자 연습까지 현실적인 준비 방법을 공유합니다."
 featured: false
 image: "/images/toeic-writing-1.jpg"
+relatedPosts: ["toeic-writing-guide", "toeic-study", "toeic-guide"]
 ---
 
 안녕하세요, 다루하루TV입니다!

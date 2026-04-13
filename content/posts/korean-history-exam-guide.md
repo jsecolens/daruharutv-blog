@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "한능검 시험 종류와 등급 구조, 활용처, 유효기간, 효과적인 공부법까지 처음부터 끝까지 정리"
 featured: false
 image: "/images/korean-history-exam-guide.jpg"
+relatedPosts: ["useful-certifications-staff", "how-to-become-university-staff"]
 ---
 
 <img src="/images/korean-history-exam-guide.jpg" alt="한국사능력검정시험 자격증 정보 완벽 정리" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

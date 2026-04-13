@@ -6,6 +6,7 @@ excerpt: "육아휴직 제도 하나만으로 회사의 '진짜 복지 수준'�
 featured: false
 image: "/images/parental-leave-1.jpg"
 youtube: "https://www.youtube.com/embed/IUeLXEjsdN4"
+relatedPosts: ["staff-benefits", "salary-range", "good-company-traits"]
 ---
 
 안녕하세요, 다루하루TV입니다!

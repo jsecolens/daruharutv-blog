@@ -6,6 +6,7 @@ excerpt: "사학연금 9% 공제의 진실! 교직원 월급에서 빠져나가�
 featured: false
 image: "/images/salary-deduction-1.jpg"
 youtube: "https://www.youtube.com/embed/DUhp_7dfT7I"
+relatedPosts: ["salary-range", "company-tax-knowledge-guide", "staff-benefits"]
 ---
 
 안녕하세요, 다루하루TV입니다!

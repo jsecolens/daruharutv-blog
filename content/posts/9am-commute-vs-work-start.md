@@ -5,6 +5,7 @@ category: "office-life"
 excerpt: "9시 출근 vs 9시 업무 시작, 직장인이라면 한 번쯤 고민해봤을 출근 시간 논란을 경험을 바탕으로 정리합니다."
 featured: false
 image: "/images/9am-commute-vs-work-start.jpg"
+relatedPosts: ["noojt", "usesystem", "schoollaw"]
 ---
 
 안녕하세요, 다루하루TV입니다!

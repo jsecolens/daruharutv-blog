@@ -6,6 +6,7 @@ excerpt: "전임자가 사라지고 인수인계도 없이 혼자 남겨졌을 �
 featured: false
 image: "/images/noojt-1.jpg"
 youtube: "https://www.youtube.com/embed/RvkYH1DrRTQ"
+relatedPosts: ["usesystem", "schoollaw", "first-day"]
 ---
 
 안녕하세요, 다루하루TV입니다!

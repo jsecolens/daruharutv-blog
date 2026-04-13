@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "전기산업기사 응시자격, 시험 과목, 합격률, 전기기사와의 차이점, 취업 활용까지 한눈에 정리했습니다."
 featured: false
 image: "/images/electrical-industrial-engineer-guide.jpg"
+relatedPosts: ["electrician-craftsman-guide", "electrical-engineer-guide"]
 ---
 
 <img src="/images/electrical-industrial-engineer-guide.jpg" alt="전기산업기사 자격증 정리" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

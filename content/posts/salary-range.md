@@ -6,6 +6,7 @@ excerpt: "교직원 초봉이 궁금하신가요? 최상위권부터 중위권�
 featured: false
 image: "/images/salary-range-1.jpg"
 youtube: "https://www.youtube.com/embed/NMB75CdGDxA"
+relatedPosts: ["salary-deduction", "staff-benefits", "staff-tmi"]
 ---
 
 안녕하세요, 다루하루TV입니다.

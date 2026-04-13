@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "AI, 학령인구 감소, 등록금 인상, 유학생 유치, RISE 사업까지 — 대학 교직원 면접 시사·정책 예상 질문 11선과 참고 답변을 정리했습니다."
 featured: false
 image: "/images/interview-questions-policy.jpg"
+relatedPosts: ["interview-questions-school", "interview-questions-personal", "university-future"]
 ---
 
 안녕하세요, 다루하루TV입니다!

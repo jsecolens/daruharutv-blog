@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "3D프린터개발산업기사 시험 구성, 기능사와의 차이, 합격 전략과 진로 전망까지 정리합니다."
 featured: false
 image: "/images/3d-printer-development.jpg"
+relatedPosts: ["3d-printer-operation", "information-processing-engineer-guide"]
 ---
 
 <img src="/images/3d-printer-development.jpg" alt="3D프린터개발산업기사" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

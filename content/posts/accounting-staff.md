@@ -6,6 +6,7 @@ excerpt: "국립대학교 채용 공고에서 자주 보이는 '대학회계직�
 featured: false
 image: "/images/accounting-staff-1.jpg"
 youtube: "https://www.youtube.com/embed/J2r3P9kMIXs"
+relatedPosts: ["preparefulltime", "how-to-become-university-staff", "tempstaff"]
 ---
 
 안녕하세요, 다루하루TV입니다!

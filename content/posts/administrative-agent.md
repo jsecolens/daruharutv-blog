@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "행정사 시험 구성, 1차·2차 시험, 합격률 4.5%의 난이도, 개업과 실무 분야까지 정리합니다."
 featured: false
 image: "/images/administrative-agent.jpg"
+relatedPosts: ["real-estate-agent", "career-counselor"]
 ---
 
 <img src="/images/administrative-agent.jpg" alt="행정사 자격증" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

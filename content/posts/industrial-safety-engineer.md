@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "산업안전기사 필기·실기 시험 구성, 합격률, 취업 전망, 산업안전산업기사와의 비교까지 총정리합니다."
 featured: false
 image: "/images/industrial-safety-engineer.jpg"
+relatedPosts: ["construction-safety-engineer", "electrical-engineer-guide", "forklift-license"]
 ---
 
 <img src="/images/industrial-safety-engineer.jpg" alt="산업안전기사 자격증 필기 실기 완벽 대비" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

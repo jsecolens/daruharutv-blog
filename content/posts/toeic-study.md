@@ -5,6 +5,7 @@ category: "toeic-study"
 excerpt: "토익 점수가 정체되어 있다면, 가장 기본적인 것을 놓치고 있는 건 아닌지 돌아볼 필요가 있습니다. 단어장 10회독으로 850점 이상을 달성한 현실적인 방법을 공유합니다."
 featured: false
 image: "/images/toeic-study-1.jpg"
+relatedPosts: ["listening", "reading", "toeic-guide"]
 ---
 
 안녕하세요, 다루하루TV입니다!

@@ -5,6 +5,7 @@ category: "office-life"
 excerpt: "부가가치세, 전자세금계산서, 현금영수증, 지출증빙까지 사회초년생이 회사에서 꼭 알아야 할 세금 기본 지식을 정리했습니다."
 featured: false
 image: "/images/company-tax-knowledge-guide.jpg"
+relatedPosts: ["salary-deduction", "salary-range", "usesystem"]
 ---
 
 안녕하세요, 다루하루TV입니다!

@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "SQLD 시험 구성, 합격 기준, 효과적인 공부법, 취업 활용처와 SQLP와의 차이까지 한눈에 정리했습니다."
 featured: false
 image: "/images/sqld-certification-guide.jpg"
+relatedPosts: ["adsp-guide", "information-processing-engineer-guide", "bigdata-analysis-engineer-guide"]
 ---
 
 <img src="/images/sqld-certification-guide.jpg" alt="SQLD 자격증 정리" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

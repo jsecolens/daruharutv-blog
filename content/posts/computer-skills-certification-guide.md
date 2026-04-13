@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "컴활 자격증 개요, 시험 구성, 1급과 2급 차이, 합격 기준과 합격률, 활용처, 효과적인 공부법까지 한눈에 정리"
 featured: false
 image: "/images/computer-skills-certification-guide.jpg"
+relatedPosts: ["word-processor", "useful-certifications-staff", "information-processing-engineer-guide"]
 ---
 
 <img src="/images/computer-skills-certification-guide.jpg" alt="컴퓨터활용능력 시험 정보 및 합격 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

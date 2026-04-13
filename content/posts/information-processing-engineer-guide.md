@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "정보처리기사 시험 개요, 응시자격, 과목 구성, 합격률, 활용처, 공부법까지 한눈에 정리한 가이드"
 featured: false
 image: "/images/information-processing-engineer-guide.jpg"
+relatedPosts: ["sqld-certification-guide", "bigdata-analysis-engineer-guide", "computer-skills-certification-guide"]
 ---
 
 <img src="/images/information-processing-engineer-guide.jpg" alt="정보처리기사 자격증 핵심 정보 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

@@ -6,6 +6,7 @@ excerpt: "교직원 취업에서 토익과 학점이 왜 여전히 중요한지,
 featured: false
 image: "/images/toeic-1.jpg"
 youtube: "https://www.youtube.com/embed/v8-u9ENCvEY"
+relatedPosts: ["staff-spec", "school-background", "competition-rate"]
 ---
 
 안녕하세요, 다루하루TV입니다!

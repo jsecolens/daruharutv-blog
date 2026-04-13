@@ -5,6 +5,7 @@ category: "office-life"
 excerpt: "2026년부터 법정 공휴일로 격상된 5월 1일 노동절, 대학교 수업은 휴강인지 정리해드립니다."
 featured: false
 image: "/images/labor-day-university-class-off.jpg"
+relatedPosts: ["labor-day-holiday-for-university-staff", "staff-benefits", "salary-deduction"]
 ---
 
 안녕하세요, 다루하루TV입니다.

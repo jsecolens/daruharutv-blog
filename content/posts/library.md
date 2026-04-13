@@ -6,6 +6,7 @@ excerpt: "대학의 디지털 인프라를 책임지는 정보전산처와 학�
 featured: false
 image: "/images/library-1.jpg"
 youtube: "https://www.youtube.com/embed/zsrl3VQ6YmU"
+relatedPosts: ["lab-office", "headquaters", "general-affairs"]
 ---
 
 안녕하세요, 다루하루TV입니다!

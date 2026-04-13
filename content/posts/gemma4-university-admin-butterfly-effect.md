@@ -5,6 +5,7 @@ category: "ai-job"
 excerpt: "구글 젬마4 공개가 학교·공공기관 행정 업무에 미칠 나비효과를 분석합니다. 오프라인 AI 시대의 변화를 준비하세요."
 featured: false
 image: "/images/gemma4-university-admin-butterfly-effect.jpg"
+relatedPosts: ["ready-ai", "ai-job-loss-school-crisis", "readyforai"]
 ---
 
 안녕하세요, 다루하루TV입니다.

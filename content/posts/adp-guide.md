@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "최종 합격률 3% 미만, 데이터 분석 분야 최고봉 ADP 자격증의 시험 구성과 합격 전략을 솔직하게 정리합니다."
 featured: false
 image: "/images/adp-guide.jpg"
+relatedPosts: ["adsp-guide", "bigdata-analysis-engineer-guide", "sqld-certification-guide"]
 ---
 
 <img src="/images/adp-guide.jpg" alt="ADP 자격증 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

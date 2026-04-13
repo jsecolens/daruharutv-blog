@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "대학교 교직원 면접 대기실의 실제 모습을 미리 알려드립니다. 강의실형과 소회의실형 대기실 풍경, 대기 중 꿀팁까지!"
 featured: false
 image: "/images/interview-waiting-room-1.jpg"
+relatedPosts: ["interview-types", "interview-factors", "mock-interview-simulator"]
 ---
 
 안녕하세요, 다루하루TV입니다!

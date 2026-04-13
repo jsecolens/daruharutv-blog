@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "100명 중 단 1명만 합격? 교직원 채용의 실제 경쟁률을 단계별로 분석합니다. 서류, 필기, 1차 면접, 최종 면접까지 각 전형의 생존율을 공개합니다."
 featured: false
 image: "/images/competition-rate-1.jpg"
+relatedPosts: ["staff-spec", "survey", "staff-recruitment-age"]
 ---
 
 안녕하세요, 다루하루TV입니다!

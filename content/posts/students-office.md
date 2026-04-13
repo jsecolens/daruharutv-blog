@@ -5,6 +5,7 @@ category: "university-departments"
 excerpt: "대학의 활기를 책임지는 학생처! 2026년 AI 시대에 맞춰 진화한 학생처의 업무와 취업 준비 전략을 알아봅니다."
 image: "/images/students-office-1.jpg"
 youtube: "https://www.youtube.com/embed/23dIx8FF3II"
+relatedPosts: ["academic-affairs-office", "admission", "general-affairs"]
 ---
 
 <img src="/images/students-office-1.jpg" alt="학생처 스마트 학생 서비스 센터" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

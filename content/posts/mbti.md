@@ -6,6 +6,7 @@ excerpt: "교직원을 준비하는 사람들의 MBTI 설문 결과와 조직별
 featured: false
 image: "/images/mbti-1.jpg"
 youtube: "https://www.youtube.com/embed/XsS5TZU8oCM"
+relatedPosts: ["bad-complaints", "good-company-office-culture", "good-company-traits"]
 ---
 
 안녕하세요, 다루하루TV입니다!

@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "국가기술자격이자 평생 유효한 빅데이터분석기사의 시험 구성과 합격 전략을 한눈에 정리합니다."
 featured: false
 image: "/images/bigdata-analysis-engineer-guide.jpg"
+relatedPosts: ["adp-guide", "adsp-guide", "information-processing-engineer-guide"]
 ---
 
 <img src="/images/bigdata-analysis-engineer-guide.jpg" alt="빅데이터분석기사 자격증 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

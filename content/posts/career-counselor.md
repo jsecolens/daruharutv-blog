@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "직업상담사 1급·2급의 시험 과목, 합격률, 필기·실기 공부법, 취업처와 전망까지 총정리합니다."
 featured: false
 image: "/images/career-counselor.jpg"
+relatedPosts: ["lifelong-education-instructor", "useful-certifications-staff", "how-to-become-university-staff"]
 ---
 
 <img src="/images/career-counselor.jpg" alt="직업상담사 자격증 취업의 지름길 완전 정복 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

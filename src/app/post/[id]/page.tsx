@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { getPostById, getPostsByCategory, getAllPostIds } from '@/lib/posts';
+import { getPostById, getPostsByCategory, getPostsBySlugs, getAllPostIds } from '@/lib/posts';
 import PostCard from '@/components/PostCard';
 import AdUnit from '@/components/AdUnit';
 
@@ -42,9 +42,13 @@ export default async function PostPage({ params }: Props) {
     notFound();
   }
 
-  // 관련 글 (같은 카테고리에서 현재 글 제외)
+  // 큐레이션된 관련 글 (frontmatter에서 지정)
+  const curatedRelatedPosts = post.relatedPosts ? getPostsBySlugs(post.relatedPosts) : [];
+
+  // 자동 관련 글 (같은 카테고리에서 현재 글 및 큐레이션 글 제외)
+  const curatedIds = new Set(curatedRelatedPosts.map((p) => p.id));
   const relatedPosts = getPostsByCategory(post.category)
-    .filter((p) => p.id !== post.id)
+    .filter((p) => p.id !== post.id && !curatedIds.has(p.id))
     .slice(0, 3);
 
   // 본문을 <hr> 기준으로 분할하여 중간에 광고 삽입
@@ -123,6 +127,36 @@ export default async function PostPage({ params }: Props) {
           className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
+      )}
+
+      {/* 큐레이션된 관련 글 카드 */}
+      {curatedRelatedPosts.length > 0 && (
+        <div className="mb-8 max-w-3xl mx-auto space-y-3">
+          <p className="text-sm font-semibold text-gray-500 mb-4">함께 읽으면 좋은 글</p>
+          {curatedRelatedPosts.map((related) => (
+            <Link
+              key={related.id}
+              href={`/post/${related.id}`}
+              className="flex items-center gap-4 p-4 bg-gray-50 border border-gray-200 rounded-xl no-underline text-inherit hover:bg-gray-100 hover:border-gray-300 transition-all"
+            >
+              {related.thumbnail && (
+                <Image
+                  src={related.thumbnail}
+                  alt={related.title}
+                  width={140}
+                  height={90}
+                  className="rounded-lg object-cover flex-shrink-0"
+                  style={{ width: 140, height: 90, margin: 0 }}
+                />
+              )}
+              <div className="flex-1 min-w-0">
+                <div className="text-xs font-semibold text-blue-600 mb-1">📄 관련 글</div>
+                <div className="text-base font-bold text-gray-900 mb-1 leading-tight">{related.title}</div>
+                <div className="text-sm text-gray-500 leading-snug line-clamp-2">{related.description}</div>
+              </div>
+            </Link>
+          ))}
+        </div>
       )}
 
       {/* 유튜브 영상 */}

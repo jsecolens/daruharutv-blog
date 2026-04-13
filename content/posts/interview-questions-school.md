@@ -6,6 +6,7 @@ excerpt: "학교 관련 면접 질문 7가지 완전 공략! 학교 뉴스, 홍�
 featured: false
 image: "/images/interview-questions-school.jpg"
 youtube: "https://www.youtube.com/embed/9ATcuSudapY"
+relatedPosts: ["interview-questions-personal", "interview-questions-policy", "interview-factors"]
 ---
 
 안녕하세요, 다루하루TV입니다!

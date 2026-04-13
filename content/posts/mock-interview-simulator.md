@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "총장님과 처장님들 앞에서 실제 면접을 보는 듯한 긴장감! 타이머와 함께 실전 면접을 연습해보세요."
 featured: true
 image: "/images/interview-panel.jpg"
+relatedPosts: ["interview-types", "interview-questions-personal", "interview-waiting-room"]
 ---
 
 안녕하세요, 다루하루TV입니다!

@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "교직원 면접의 본질과 합격을 결정짓는 4가지 요소를 분석합니다. 기본 스펙, 답변 능력, 외적 요소, 그리고 운까지 - 면접 합격의 비밀을 파헤쳐 봅니다."
 featured: false
 image: "/images/interview-factors-1.jpg"
+relatedPosts: ["interview-types", "interview-questions-personal", "mock-interview-simulator"]
 ---
 
 안녕하세요, 다루하루TV입니다!

@@ -5,6 +5,7 @@ category: "toeic-study"
 excerpt: "대기업 취업 필수 관문 토익스피킹의 시험 구성, 등급 체계, 기업별 활용, 공부법까지 정리합니다."
 featured: false
 image: "/images/toeic-speaking-guide.jpg"
+relatedPosts: ["opic-exam-guide", "toeic-guide", "toeic-writing-guide"]
 ---
 
 <img src="/images/toeic-speaking-guide.jpg" alt="TOEIC Speaking 시험 가이드 및 정보" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

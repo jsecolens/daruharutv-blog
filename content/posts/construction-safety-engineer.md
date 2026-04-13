@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "건설안전기사 필기·실기 시험 구성, 합격률, 취업 전망, 산업안전기사와의 병행 취득 전략까지 총정리합니다."
 featured: false
 image: "/images/construction-safety-engineer.jpg"
+relatedPosts: ["industrial-safety-engineer", "electrical-engineer-guide", "forklift-license"]
 ---
 
 <img src="/images/construction-safety-engineer.jpg" alt="건설안전기사 자격증 필기/실기 완벽 합격 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

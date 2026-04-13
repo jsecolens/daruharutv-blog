@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "OPIc 시험 구성, 9등급 체계, 대기업 활용 현황, 토익스피킹 비교, AL 고득점 전략까지 한눈에 정리합니다."
 featured: false
 image: "/images/opic-exam-guide.jpg"
+relatedPosts: ["toeic-speaking-guide", "jlpt-exam-guide", "toeic-guide"]
 ---
 
 <img src="/images/opic-exam-guide.jpg" alt="OPIc 오픽 시험 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

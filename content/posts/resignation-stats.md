@@ -6,6 +6,7 @@ excerpt: "사학연금 통계로 확인하는 교직원 퇴사율의 충격적�
 featured: false
 image: "/images/resignation-stats-1.jpg"
 youtube: "https://www.youtube.com/embed/ucu7ef7L44A"
+relatedPosts: ["job-rotation", "university-staff-marriage-agency-grade", "salary-range"]
 ---
 
 안녕하세요, 다루하루TV입니다!

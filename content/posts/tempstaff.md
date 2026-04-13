@@ -6,6 +6,7 @@ excerpt: "계약직으로 일해본 경험과 면접관으로 참여해본 경�
 featured: true
 image: "/images/posts/tempstaff-interview.jpg"
 youtube: "https://www.youtube.com/embed/BitqVRcEATQ"
+relatedPosts: ["preparefulltime", "interview-factors", "first-day"]
 ---
 
 안녕하세요, 다루하루TV입니다!

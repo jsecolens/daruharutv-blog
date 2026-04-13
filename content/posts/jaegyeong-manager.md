@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "삼일회계법인 주관 재경관리사 자격증의 시험 과목, 합격률, 공부법, 공기업 가산점까지 총정리합니다."
 featured: false
 image: "/images/jaegyeong-manager.jpg"
+relatedPosts: ["accounting-management", "computerized-tax-accounting", "tat-certification"]
 ---
 
 <img src="/images/jaegyeong-manager.jpg" alt="재경관리사 합격 가이드 및 정보 총정리" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

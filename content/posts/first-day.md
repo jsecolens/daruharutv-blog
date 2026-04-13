@@ -6,6 +6,7 @@ excerpt: "교직원 합격부터 첫 출근, 그리고 적응까지. 여러분�
 featured: false
 image: "/images/first-day-1.jpg"
 youtube: "https://www.youtube.com/embed/sqpSwNmpoUk"
+relatedPosts: ["preparefulltime", "how-to-become-university-staff", "what-is-staff"]
 ---
 
 안녕하세요, 다루하루TV입니다!

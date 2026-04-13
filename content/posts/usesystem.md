@@ -6,6 +6,7 @@ excerpt: "대학교 교직원이 매일 사용하는 행정 프로그램 3가지
 featured: false
 image: "/images/usesystem-1.jpg"
 youtube: "https://www.youtube.com/embed/W9ieuveTXS8"
+relatedPosts: ["noojt", "schoollaw", "first-day"]
 ---
 
 안녕하세요, 다루하루TV입니다!

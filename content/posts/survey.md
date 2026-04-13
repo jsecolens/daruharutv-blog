@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "다루하루TV 구독자 대상 설문조사로 알아본 교직원 취업 준비생들의 스펙, 연령, 경력, 전공 분석"
 featured: true
 image: "/images/posts/survey-result.jpg"
+relatedPosts: ["competition-rate", "staff-spec", "staff-recruitment-age"]
 ---
 
 안녕하세요, 다루하루TV입니다!

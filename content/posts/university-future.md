@@ -6,6 +6,7 @@ excerpt: "학령인구 감소로 대학이 위기에 처한다? 출생아 수 �
 featured: false
 image: "/images/university-future-1.jpg"
 youtube: "https://www.youtube.com/embed/sVQt1mHbG2I"
+relatedPosts: ["university-staff-hiring-season", "interview-questions-policy", "readyforai"]
 ---
 
 안녕하세요, 다루하루TV입니다!

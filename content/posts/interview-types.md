@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "1차 실무 면접부터 토론/PT 면접, 그리고 최종 임원 면접까지 대학교 교직원 면접의 모든 것을 완벽하게 정리했습니다. 전형별 핵심 공략법을 확인하세요."
 featured: false
 image: "/images/interview-types-1.jpg"
+relatedPosts: ["interview-factors", "interview-waiting-room", "mock-interview-simulator"]
 ---
 
 안녕하세요, 다루하루TV입니다!

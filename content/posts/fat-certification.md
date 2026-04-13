@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "한국공인회계사회 주관 FAT 1급·2급 자격증의 시험 구성, 전산회계와의 비교, 더존 프로그램 실습 팁까지 총정리합니다."
 featured: false
 image: "/images/fat-certification.jpg"
+relatedPosts: ["tat-certification", "computerized-accounting", "accounting-management"]
 ---
 
 <img src="/images/fat-certification.jpg" alt="FAT 자격증 한국공인회계사회 주관 국가공인" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

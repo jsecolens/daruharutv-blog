@@ -5,6 +5,7 @@ category: "ai-job"
 excerpt: "AI 시대에도 면접장에서는 결국 사람의 커뮤니케이션 능력이 승부를 결정합니다. 서류는 통과 티켓일 뿐, 진짜 경쟁력은 대면 상황에서의 인간다움에 있습니다."
 featured: false
 image: "/images/person-1.jpg"
+relatedPosts: ["ai-resume-writing-caution", "ready-ai", "ai-comparison"]
 ---
 
 안녕하세요, 다루하루TV입니다!

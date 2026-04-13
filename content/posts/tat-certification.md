@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "한국공인회계사회 주관 TAT 1급·2급 자격증의 시험 구성, 합격률, 전산세무와의 비교, 공부법까지 총정리합니다."
 featured: false
 image: "/images/tat-certification.jpg"
+relatedPosts: ["fat-certification", "computerized-tax-accounting", "jaegyeong-manager"]
 ---
 
 <img src="/images/tat-certification.jpg" alt="TAT 자격증 1급/2급 합격 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

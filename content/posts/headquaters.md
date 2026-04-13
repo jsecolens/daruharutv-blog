@@ -6,6 +6,7 @@ excerpt: "대학교의 예산과 미래를 책임지는 기획처의 역할과 2
 featured: false
 image: "/images/headquaters-1.jpg"
 youtube: "https://www.youtube.com/embed/gFVB6zsriws"
+relatedPosts: ["general-affairs", "academic-affairs-office", "lab-office"]
 ---
 
 안녕하세요, 다루하루TV입니다!

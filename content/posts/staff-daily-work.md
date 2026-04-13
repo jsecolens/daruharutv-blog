@@ -6,6 +6,7 @@ excerpt: "교직원 브이로그만 봐서는 알 수 없는 진짜 업무의 �
 featured: false
 image: "/images/staff-daily-work.jpg"
 youtube: "https://www.youtube.com/embed/q99QgoqugEs"
+relatedPosts: ["staff-real-work", "office-sketch", "top3"]
 ---
 
 안녕하세요, 다루하루TV입니다!

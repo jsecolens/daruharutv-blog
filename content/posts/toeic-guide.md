@@ -5,6 +5,7 @@ category: "toeic-study"
 excerpt: "대한민국 취업 시장의 필수 영어 스펙 토익의 시험 구성, 점수 활용, 공부법까지 한 번에 정리합니다."
 featured: false
 image: "/images/toeic-guide.jpg"
+relatedPosts: ["toeic-study", "listening", "reading"]
 ---
 
 <img src="/images/toeic-guide.jpg" alt="TOEIC 시험 가이드 및 정보" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

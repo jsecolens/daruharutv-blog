@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "3D프린터운용기능사 시험 구성, 필기·실기 준비법, 합격 전략과 전망까지 한 번에 정리합니다."
 featured: false
 image: "/images/3d-printer-operation.jpg"
+relatedPosts: ["3d-printer-development", "information-processing-engineer-guide"]
 ---
 
 <img src="/images/3d-printer-operation.jpg" alt="3D프린터운용기능사" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

@@ -6,6 +6,7 @@ excerpt: "학생 유치의 최전선 입학처와 대학의 외교부 대외협�
 featured: false
 image: "/images/admission-office.jpg"
 youtube: "https://www.youtube.com/embed/HZFqyuDPN04"
+relatedPosts: ["international-office", "students-office", "college-office"]
 ---
 
 안녕하세요, 다루하루TV입니다!

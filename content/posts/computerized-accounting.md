@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "전산회계의 등급 구조, 시험 구성, 전산세무와의 관계, 취업 활용까지 한 번에 정리해 드립니다."
 featured: false
 image: "/images/computerized-accounting.jpg"
+relatedPosts: ["computerized-tax-accounting", "fat-certification", "accounting-management"]
 ---
 
 <img src="/images/computerized-accounting.jpg" alt="전산회계 자격증 정보" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

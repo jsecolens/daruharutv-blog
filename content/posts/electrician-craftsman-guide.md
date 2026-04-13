@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "전기기능사 시험 구성과 실기 준비법, 합격률, 활용처와 취업 전망까지 한눈에 정리"
 featured: false
 image: "/images/electrician-craftsman-guide.jpg"
+relatedPosts: ["electrical-industrial-engineer-guide", "electrical-engineer-guide"]
 ---
 
 <img src="/images/electrician-craftsman-guide.jpg" alt="전기기능사 자격증 필기 실기 완벽 합격 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

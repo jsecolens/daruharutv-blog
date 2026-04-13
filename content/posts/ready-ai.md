@@ -5,6 +5,7 @@ category: "ai-job"
 excerpt: "AI가 대학 행정에 가져올 변화와 대학 교직원이 준비해야 할 미래에 대해 이야기합니다."
 featured: false
 image: "/images/ready-ai-1.jpg"
+relatedPosts: ["ai-job-loss-school-crisis", "gemma4-university-admin-butterfly-effect", "person"]
 ---
 
 안녕하세요, 다루하루TV입니다!

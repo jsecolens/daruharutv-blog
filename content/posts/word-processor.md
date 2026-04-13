@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "워드프로세서 자격증의 시험 구성, 합격 기준, 공부법, 활용처까지 한 번에 정리해 드립니다."
 featured: false
 image: "/images/word-processor.jpg"
+relatedPosts: ["computer-skills-certification-guide", "useful-certifications-staff"]
 ---
 
 <img src="/images/word-processor.jpg" alt="워드프로세서 자격증 정보" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

@@ -6,6 +6,7 @@ excerpt: "대학교 조교의 실제 업무와 학교 내 위치, 그리고 정�
 featured: false
 image: "/images/college-admin-1.jpg"
 youtube: "https://www.youtube.com/embed/MP1ziUq2KNw"
+relatedPosts: ["tempstaff", "preparefulltime", "college-office"]
 ---
 
 안녕하세요, 다루하루TV입니다.

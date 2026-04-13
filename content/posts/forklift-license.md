@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "국가기술자격 응시자 수 1위 지게차운전기능사의 시험 구성, 취득 방법, 취업 전망까지 한 번에 정리합니다."
 featured: false
 image: "/images/forklift-license.jpg"
+relatedPosts: ["industrial-safety-engineer", "construction-safety-engineer"]
 ---
 
 <img src="/images/forklift-license.jpg" alt="지게차운전기능사 자격증 합격 가이드 및 정보" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

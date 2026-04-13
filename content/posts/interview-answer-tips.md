@@ -5,6 +5,7 @@ category: "ai-job"
 excerpt: "대학 교직원 면접에서 다른 지원자와 차별화되는 답변을 만드는 세 가지 근거 출처와 AI 활용법을 알려드립니다."
 featured: false
 image: "/images/interview-answer-tips.jpg"
+relatedPosts: ["interview-factors", "interview-types", "ai-resume-writing-caution"]
 ---
 
 안녕하세요, 다루하루TV입니다.

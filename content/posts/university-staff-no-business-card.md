@@ -5,6 +5,7 @@ category: "office-life"
 excerpt: "명함이 없다는 건 단순히 종이 한 장의 유무가 아닙니다. 을의 위치에서 나를 어필할 필요 없이, 개인정보를 지키며 업무에 집중할 수 있는 환경의 의미를 이야기합니다."
 featured: false
 image: "/images/university-staff-no-business-card.jpg"
+relatedPosts: ["good-company-traits", "good-company-office-culture", "bad-complaints"]
 ---
 
 안녕하세요, 다루하루TV입니다!

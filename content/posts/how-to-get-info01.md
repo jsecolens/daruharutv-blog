@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "교육부 정책부터 총장 신년사까지, 대학교 교직원 취업을 위한 체계적인 정보 수집 방법을 알아봅니다."
 featured: false
 image: "/images/how-to-get-info-1.jpg"
+relatedPosts: ["how-to-become-university-staff", "university-staff-hiring-season", "what-is-staff"]
 ---
 
 안녕하세요, 다루하루TV입니다! 오늘은 대학교 교직원 취업을 준비하는 분들이 가장 먼저 해야 할 정보 수집 과정에 대해 이야기해보려고 합니다. 많은 분들이 자소서 작성이나 면접 준비에만 집중하시는데, 사실 그 이전에 반드시 거쳐야 할 단계가 있어요. 바로 **제대로 된 정보 수집**입니다.

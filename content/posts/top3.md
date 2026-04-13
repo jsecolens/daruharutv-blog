@@ -6,6 +6,7 @@ excerpt: "현직 교직원이 직접 경험하고 느낀 대학교에서 가장 
 featured: false
 image: "/images/top3-1.jpg"
 youtube: "https://www.youtube.com/embed/SUNzb0AbPEk"
+relatedPosts: ["top3(2)", "staff-daily-work", "staff-real-work"]
 ---
 
 안녕하세요, 다루하루TV입니다!

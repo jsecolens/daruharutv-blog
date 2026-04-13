@@ -5,6 +5,7 @@ category: "office-life"
 excerpt: "좋은 회사의 가장 확실한 지표는 바로 근속연수입니다. 직원들이 떠나지 않는 회사의 비밀을 알려드립니다."
 featured: false
 image: "/images/good-company-traits.jpg"
+relatedPosts: ["good-company-office-culture", "university-staff-no-business-card", "parental-leave"]
 ---
 
 안녕하세요, 다루하루TV입니다.

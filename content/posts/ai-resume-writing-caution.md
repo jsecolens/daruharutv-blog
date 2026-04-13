@@ -5,6 +5,7 @@ category: "ai-job"
 excerpt: "AI로 자기소개서를 작성할 때 반드시 주의해야 할 점들과 면접에서 빛나는 AI 활용법을 알려드립니다."
 featured: false
 image: "/images/ai-resume-writing-caution.jpg"
+relatedPosts: ["ai-comparison", "interview-answer-tips", "person"]
 ---
 
 안녕하세요, 다루하루TV입니다.

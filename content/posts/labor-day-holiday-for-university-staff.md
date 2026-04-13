@@ -5,6 +5,7 @@ category: "office-life"
 excerpt: "근로자의 날에 쉬지 못했던 대학교 교직원, 올해부터 노동절이 법정 공휴일로 바뀌면서 드디어 함께 쉴 수 있게 되었습니다."
 featured: false
 image: "/images/labor-day-holiday-for-university-staff.jpg"
+relatedPosts: ["labor-day-university-class-off", "staff-benefits", "salary-range"]
 ---
 
 안녕하세요, 다루하루TV입니다!

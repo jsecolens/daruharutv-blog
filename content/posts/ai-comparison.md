@@ -4,6 +4,7 @@ date: "2026-01-10"
 category: "ai-job"
 description: "ChatGPT, Gemini, Claude를 직접 사용해본 솔직한 경험담. 각 AI의 장단점과 실전 활용 팁을 공유합니다."
 thumbnail: "/images/ai-comparison-1.jpg"
+relatedPosts: ["ai-resume-writing-caution", "readyforai", "person"]
 ---
 
 <img src="/images/ai-comparison-1.jpg" alt="AI 3총사 활용하기" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

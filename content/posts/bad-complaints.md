@@ -6,6 +6,7 @@ excerpt: "대학교 교직원이라면 한 번쯤 들어봤을 악성 민원인�
 featured: false
 image: "/images/bad-complaints.jpg"
 youtube: "https://www.youtube.com/embed/y02pdemcEUg"
+relatedPosts: ["mbti", "good-company-office-culture", "university-staff-no-business-card"]
 ---
 
 안녕하세요, **다루하루TV**입니다!

@@ -5,6 +5,7 @@ category: "ai-job"
 excerpt: "단순히 AI 채팅 도구를 사용하는 것을 넘어, 업무 시스템을 자동화하고 프로세스를 혁신하는 진짜 AI 역량으로 면접에서 차별화하는 방법을 알아봅니다."
 featured: false
 image: "/images/readyforai-1.jpg"
+relatedPosts: ["ai-comparison", "ready-ai", "gemma4-university-admin-butterfly-effect"]
 ---
 
 안녕하세요, 다루하루TV입니다!

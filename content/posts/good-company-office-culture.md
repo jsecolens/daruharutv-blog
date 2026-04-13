@@ -5,6 +5,7 @@ category: "office-life"
 excerpt: "파티션 높이, 컴퓨터 사양, 연차 사용 방식으로 알아보는 좋은 회사의 사무실 문화 체크리스트"
 featured: false
 image: "/images/good-company-office-culture.jpg"
+relatedPosts: ["good-company-traits", "bad-complaints", "mbti"]
 ---
 
 안녕하세요, 다루하루TV입니다!

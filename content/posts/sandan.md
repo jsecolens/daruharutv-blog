@@ -6,6 +6,7 @@ excerpt: "교직원 채용 공고에서 자주 보이는 산학협력단의 정�
 featured: true
 image: "/images/posts/sandan-building.jpg"
 youtube: "https://www.youtube.com/embed/ltmyPgXfwdY"
+relatedPosts: ["lab-office", "college-office", "admission"]
 ---
 
 교무처부터 단과대학 행정실까지, 대학교의 다양한 부서들을 샅샅이 파헤쳐 온 '교직원 부서 탐구' 시리즈! 오늘이 드디어 그 마지막 시간입니다.

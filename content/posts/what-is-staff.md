@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "대학교 교직원이란 무엇인지, 어떤 일을 하는지 정확히 알려드립니다. 교직원 취업 AtoZ 시리즈의 첫 번째 이야기, 교직원의 정의와 범위를 알아봅니다."
 featured: false
 image: "/images/what-is-staff-1.jpg"
+relatedPosts: ["how-to-become-university-staff", "how-to-get-info01", "university-staff-hiring-season"]
 ---
 
 안녕하세요, 다루하루TV입니다!

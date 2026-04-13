@@ -6,6 +6,7 @@ excerpt: "대학 연구 활동을 지원하는 연구처의 핵심 업무와 AI 
 featured: false
 image: "/images/lab-office-1.jpg"
 youtube: "https://www.youtube.com/embed/zsrl3VQ6YmU"
+relatedPosts: ["sandan", "headquaters", "library"]
 ---
 
 안녕하세요, 다루하루TV입니다!

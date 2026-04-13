@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "남의 결과물을 평가하는 능력을 내 성장에 전략적으로 활용하는 지적질 이론의 실전 적용법"
 featured: false
 image: "/images/nitpicking-theory.jpg"
+relatedPosts: ["interview-answer-tips", "staff-spec", "how-to-get-info01"]
 ---
 
 안녕하세요, 다루하루TV입니다!

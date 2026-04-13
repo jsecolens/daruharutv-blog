@@ -6,6 +6,7 @@ excerpt: "교무처의 핵심 업무와 2026년 더욱 중요해진 이유를 �
 featured: true
 image: "/images/academic-affairs-1.jpg"
 youtube: "https://www.youtube.com/embed/2KA_rruYmuc"
+relatedPosts: ["headquaters", "students-office", "general-affairs"]
 ---
 
 안녕하세요, 다루하루TV입니다!

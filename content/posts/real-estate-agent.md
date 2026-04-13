@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "공인중개사 1·2차 시험 구성, 합격률, 개업 현실, 효과적인 공부법까지 총정리합니다."
 featured: false
 image: "/images/real-estate-agent.jpg"
+relatedPosts: ["administrative-agent", "jaegyeong-manager"]
 ---
 
 <img src="/images/real-estate-agent.jpg" alt="공인중개사 자격증 완전 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

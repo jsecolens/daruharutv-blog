@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "삼일회계법인 주관 국가공인 회계관리 1급·2급 자격증의 시험 구성, 합격률, 공부법, 재경관리사 로드맵까지 총정리합니다."
 featured: false
 image: "/images/accounting-management.jpg"
+relatedPosts: ["jaegyeong-manager", "computerized-accounting", "fat-certification"]
 ---
 
 <img src="/images/accounting-management.jpg" alt="회계관리 합격 가이드 및 정보 총정리" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

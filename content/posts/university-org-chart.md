@@ -6,6 +6,7 @@ excerpt: "대학교 교직원 취업을 준비한다면 조직 구조부터 알�
 featured: false
 image: "/images/university-org-chart.jpg"
 youtube: "https://www.youtube.com/embed/WY5WDkQfYto"
+relatedPosts: ["headquaters", "general-affairs", "job-rotation"]
 ---
 
 안녕하세요, 다루하루TV입니다!

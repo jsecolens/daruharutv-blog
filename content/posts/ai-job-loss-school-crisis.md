@@ -5,6 +5,7 @@ category: "ai-job"
 excerpt: "AI가 일자리를 대체하고, 초등학교 신입생이 사라지고 있습니다. 미래가 아닌 현실이 된 두 가지 위기, 대학교 교직원 면접 준비에 꼭 알아야 할 핵심 이슈를 정리합니다."
 featured: false
 image: "/images/ai-job-loss-school-crisis.jpg"
+relatedPosts: ["ready-ai", "gemma4-university-admin-butterfly-effect", "person"]
 ---
 
 안녕하세요, 다루하루TV입니다!

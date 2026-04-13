@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "계약직을 단순한 생계 수단이 아닌 정규직으로 가는 전략적 발판으로 활용하는 방법. 부서 선택, 경력 관리, 면접 전략까지 현직자가 알려주는 필승 전략을 소개합니다."
 featured: false
 image: "/images/preparefulltime-1.jpg"
+relatedPosts: ["tempstaff", "first-day", "accounting-staff"]
 ---
 
 안녕하세요, 다루하루TV입니다!

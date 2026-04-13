@@ -19,6 +19,7 @@ export interface Post {
   thumbnail?: string;
   youtube?: string;
   featured?: boolean;
+  relatedPosts?: string[];
 }
 
 export const categories = [
@@ -74,6 +75,7 @@ export function getAllPosts(): Post[] {
         thumbnail: data.image || data.thumbnail,
         youtube: data.youtube,
         featured: data.featured || false,
+        relatedPosts: data.relatedPosts || undefined,
       } as Post;
     });
 
@@ -109,6 +111,7 @@ export async function getPostById(id: string): Promise<Post | null> {
       thumbnail: data.image || data.thumbnail,
       youtube: data.youtube,
       featured: data.featured || false,
+      relatedPosts: data.relatedPosts || undefined,
     };
   } catch {
     return null;
@@ -118,6 +121,13 @@ export async function getPostById(id: string): Promise<Post | null> {
 export function getPostsByCategory(categorySlug: string): Post[] {
   const allPosts = getAllPosts();
   return allPosts.filter((post) => post.category === categorySlug);
+}
+
+export function getPostsBySlugs(slugs: string[]): Post[] {
+  const allPosts = getAllPosts();
+  return slugs
+    .map((slug) => allPosts.find((post) => post.id === slug))
+    .filter((post): post is Post => post !== undefined);
 }
 
 export function getRecentPosts(limit: number = 5): Post[] {

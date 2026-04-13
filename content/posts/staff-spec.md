@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "대학교 교직원 취업에 필요한 실제 합격자들의 스펙을 공개합니다. 토익, 학점, 자격증이 왜 중요한지 현직자가 알려드립니다."
 featured: false
 image: "/images/staff-spec-1.jpg"
+relatedPosts: ["toeic", "school-background", "competition-rate"]
 ---
 
 안녕하세요, 다루하루TV입니다!

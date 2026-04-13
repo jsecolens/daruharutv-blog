@@ -6,6 +6,7 @@ excerpt: "학생들과 가장 가까이에서 소통하는 단과대학 행정�
 featured: true
 image: "/images/posts/college-office.jpg"
 youtube: "https://www.youtube.com/embed/Bcl43QYiAKw"
+relatedPosts: ["academic-affairs-office", "sandan", "college-admin"]
 ---
 
 안녕하세요, 다루하루TV입니다!

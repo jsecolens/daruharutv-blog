@@ -5,6 +5,7 @@ category: "office-life"
 excerpt: "대학교 교직원의 숨은 복지인 학생식당 이야기와, 최근 학생식당이 사라지고 있는 현실에 대해 이야기합니다."
 featured: false
 image: "/images/dining.jpg"
+relatedPosts: ["staff-benefits", "salary-range", "staff-tmi"]
 ---
 
 안녕하세요, **다루하루TV**입니다!

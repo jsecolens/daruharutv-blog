@@ -5,6 +5,7 @@ category: "toeic-study"
 excerpt: "토익 리딩에서 850점 이상을 안정적으로 받기 위한 가장 확실한 방법은 기본서 1회독입니다. 단순하지만 강력한 학습 전략을 공유합니다."
 featured: false
 image: "/images/reading-1.jpg"
+relatedPosts: ["listening", "toeic-study", "toeic-guide"]
 ---
 
 안녕하세요, 다루하루TV입니다!

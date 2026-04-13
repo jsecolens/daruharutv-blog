@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "사서 자격증의 등급 구조, 취득 경로, 학점은행제 활용법, 사서교육원, 도서관 취업 전망까지 총정리합니다."
 featured: false
 image: "/images/librarian-certification.jpg"
+relatedPosts: ["lifelong-education-instructor", "library", "useful-certifications-staff"]
 ---
 
 <img src="/images/librarian-certification.jpg" alt="사서 자격증 완전 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

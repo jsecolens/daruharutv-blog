@@ -6,6 +6,7 @@ excerpt: "학식, 도서관, 교직원공제회, 대학병원 할인, 방학 단
 featured: false
 image: "/images/staff-benefits-1.jpg"
 youtube: "https://www.youtube.com/embed/NKemAsMRnNE"
+relatedPosts: ["dining", "salary-range", "parental-leave"]
 ---
 
 안녕하세요, 다루하루TV입니다!

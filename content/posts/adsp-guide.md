@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "ADsP의 시험 구성, 과목별 특징, 합격 전략, 활용처까지 데이터 분석 입문 자격증을 한눈에 정리합니다."
 featured: false
 image: "/images/adsp-guide.jpg"
+relatedPosts: ["adp-guide", "sqld-certification-guide", "bigdata-analysis-engineer-guide"]
 ---
 
 <img src="/images/adsp-guide.jpg" alt="ADsP 자격증 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

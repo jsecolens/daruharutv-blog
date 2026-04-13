@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "전산세무의 시험 구성, 2급과 1급의 차이, 최근 난이도 변화, 취업 활용까지 빠짐없이 정리해 드립니다."
 featured: false
 image: "/images/computerized-tax-accounting.jpg"
+relatedPosts: ["computerized-accounting", "tat-certification", "jaegyeong-manager"]
 ---
 
 <img src="/images/computerized-tax-accounting.jpg" alt="전산세무 자격증 정보" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

@@ -5,6 +5,7 @@ category: "edu-career"
 excerpt: "대학교 교직원 채용 공고는 언제 나올까? TO 발생 구조부터 채용 집중 시기, AI와 학령인구 감소에 따른 전망까지 정리했습니다."
 featured: false
 image: "/images/university-staff-hiring-season.jpg"
+relatedPosts: ["how-to-become-university-staff", "university-future", "competition-rate"]
 ---
 
 안녕하세요, 다루하루TV입니다!

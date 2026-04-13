@@ -6,6 +6,7 @@ excerpt: "대학교 교직원의 순환 근무 시스템과 부서 이동 주기
 featured: false
 image: "/images/job-rotation-1.jpg"
 youtube: "https://www.youtube.com/embed/GrakRgNetVU"
+relatedPosts: ["resignation-stats", "university-staff-marriage-agency-grade", "university-org-chart"]
 ---
 
 안녕하세요, 다루하루TV입니다!

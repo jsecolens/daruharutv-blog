@@ -5,6 +5,7 @@ category: "toeic-study"
 excerpt: "토익 라이팅의 시험 구성, 점수 체계, 번역가 자격 활용, 공부법까지 한 번에 정리합니다."
 featured: false
 image: "/images/toeic-writing-guide.jpg"
+relatedPosts: ["toeic-writing", "toeic-speaking-guide", "toeic-guide"]
 ---
 
 <img src="/images/toeic-writing-guide.jpg" alt="TOEIC Writing 시험 가이드 및 정보" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />

@@ -6,6 +6,7 @@ excerpt: "대학 운영의 핵심 부서인 총무처와 평생교육원의 업�
 featured: false
 image: "/images/general-affairs-2.jpg"
 youtube: "https://www.youtube.com/embed/4DEmxKdl85U"
+relatedPosts: ["headquaters", "academic-affairs-office", "library"]
 ---
 
 안녕하세요, 다루하루TV입니다!

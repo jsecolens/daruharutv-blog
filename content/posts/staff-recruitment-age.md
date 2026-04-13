@@ -6,6 +6,7 @@ excerpt: "30대에 교직원 신입으로 지원해도 될까요? 현직자가 �
 featured: false
 image: "/images/staff-recruitment-1.jpg"
 youtube: "https://www.youtube.com/embed/T-LGE5oGQZM"
+relatedPosts: ["school-background", "competition-rate", "survey"]
 ---
 
 안녕하세요, 다루하루TV입니다!

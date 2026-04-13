@@ -6,6 +6,7 @@ excerpt: "사학연금의 진짜 비밀, 퇴직금 0원의 진실, 2대 보험�
 featured: false
 image: "/images/staff-tmi.jpg"
 youtube: "https://www.youtube.com/embed/002PxgmQSnc"
+relatedPosts: ["salary-deduction", "staff-benefits", "salary-range"]
 ---
 
 안녕하세요, 다루하루TV입니다!

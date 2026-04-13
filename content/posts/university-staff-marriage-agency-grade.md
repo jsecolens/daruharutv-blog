@@ -5,6 +5,7 @@ category: "office-life"
 excerpt: "대학교 정규직 교직원이 결혼정보회사에서 어떤 등급을 받는지, 주변 경험담과 커뮤니티 후기를 종합해 추측해봤습니다."
 featured: false
 image: "/images/university-staff-marriage-agency-grade.jpg"
+relatedPosts: ["resignation-stats", "job-rotation", "salary-range"]
 ---
 
 안녕하세요, 다루하루TV입니다.

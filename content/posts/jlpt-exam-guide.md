@@ -5,6 +5,7 @@ category: "certification"
 excerpt: "JLPT 레벨 구조, 시험 일정, 합격 기준, 효과적인 공부법, 취업 활용처까지 한눈에 정리한 완전 가이드입니다."
 featured: false
 image: "/images/jlpt-exam-guide.jpg"
+relatedPosts: ["opic-exam-guide", "toeic-guide", "toeic-speaking-guide"]
 ---
 
 <img src="/images/jlpt-exam-guide.jpg" alt="JLPT 일본어능력시험 가이드" style="max-width: 700px; width: 100%; height: auto; margin: 2rem auto; display: block; border-radius: 12px;" />
