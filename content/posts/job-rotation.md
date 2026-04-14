@@ -93,6 +93,6 @@ relatedPosts: ["resignation-stats", "university-staff-marriage-agency-grade", "u
 
 함께 보면 좋은 글
 
-- [대학교 조직도 완벽 해부](/posts/university-org-chart)
-- [교직원이 매일 마주하는 진짜 실무 4가지](/posts/staff-real-work)
-- [현직자가 꼽은 교직원 현실 복지 TOP 5](/posts/staff-benefits)
+- [대학교 조직도 완벽 해부](/post/university-org-chart)
+- [교직원이 매일 마주하는 진짜 실무 4가지](/post/staff-real-work)
+- [현직자가 꼽은 교직원 현실 복지 TOP 5](/post/staff-benefits)

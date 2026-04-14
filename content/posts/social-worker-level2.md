@@ -199,6 +199,6 @@ relatedPosts: ["lifelong-education-instructor", "librarian-certification", "usef
 
 ## 함께 읽으면 좋은 글
 
-- [평생교육사 자격증 정리 – 시험 없이 과목 이수로 취득하는 국가자격, 등급별 요건부터 취업처까지](/posts/lifelong-education-instructor)
-- [사서 자격증 정리 – 준사서부터 1급 정사서까지, 취득 경로와 도서관 취업 전망](/posts/librarian-certification)
-- [대학교 교직원이 준비해두면 좋은 자격증 정리](/posts/useful-certifications-staff)
+- [평생교육사 자격증 정리 – 시험 없이 과목 이수로 취득하는 국가자격, 등급별 요건부터 취업처까지](/post/lifelong-education-instructor)
+- [사서 자격증 정리 – 준사서부터 1급 정사서까지, 취득 경로와 도서관 취업 전망](/post/librarian-certification)
+- [대학교 교직원이 준비해두면 좋은 자격증 정리](/post/useful-certifications-staff)

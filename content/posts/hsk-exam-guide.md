@@ -220,6 +220,6 @@ HSK는 중국 정부가 공식 주관하는 유일한 국제 중국어 능력 �
 
 ## 함께 읽으면 좋은 글
 
-- [JLPT(일본어능력시험) 완벽 정리 – N5부터 N1까지 레벨별 완전 가이드](/posts/jlpt-exam-guide)
-- [JPT(일본어능력시험) 정리 – 국내 대표 일본어 시험, 점수제의 매력부터 취업 활용까지](/posts/jpt-exam-guide)
-- [OPIc 완벽 가이드 – 레벨 체계부터 고득점 전략까지](/posts/opic-exam-guide)
+- [JLPT(일본어능력시험) 완벽 정리 – N5부터 N1까지 레벨별 완전 가이드](/post/jlpt-exam-guide)
+- [JPT(일본어능력시험) 정리 – 국내 대표 일본어 시험, 점수제의 매력부터 취업 활용까지](/post/jpt-exam-guide)
+- [OPIc 완벽 가이드 – 레벨 체계부터 고득점 전략까지](/post/opic-exam-guide)

@@ -189,6 +189,6 @@ relatedPosts: ["forklift-license", "korean-cooking-certification", "electrician-
 
 ## 함께 읽으면 좋은 글
 
-- [지게차운전기능사 자격증 정리 – 단기 취득 가능한 실용 자격증, 응시자 수 1위의 비결](/posts/forklift-license)
-- [한식조리기능사 자격증 정리 – 조리·요식업 진입의 필수 관문, 창업과 취업을 아우르는 국민 자격증](/posts/korean-cooking-certification)
-- [전기기능사 완벽 가이드 – 시험 구성, 준비 전략, 취업 활용까지](/posts/electrician-craftsman-guide)
+- [지게차운전기능사 자격증 정리 – 단기 취득 가능한 실용 자격증, 응시자 수 1위의 비결](/post/forklift-license)
+- [한식조리기능사 자격증 정리 – 조리·요식업 진입의 필수 관문, 창업과 취업을 아우르는 국민 자격증](/post/korean-cooking-certification)
+- [전기기능사 완벽 가이드 – 시험 구성, 준비 전략, 취업 활용까지](/post/electrician-craftsman-guide)

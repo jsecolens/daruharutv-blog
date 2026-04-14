@@ -25,10 +25,14 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: `${post.title} - 다루하루TV`,
     description: post.description,
+    alternates: {
+      canonical: `/post/${id}`,
+    },
     openGraph: {
       title: post.title,
       description: post.description,
       type: 'article',
+      url: `/post/${id}`,
       images: post.thumbnail ? [post.thumbnail] : [],
     },
   };

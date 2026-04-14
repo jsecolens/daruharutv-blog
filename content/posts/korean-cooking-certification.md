@@ -210,6 +210,6 @@ relatedPosts: ["forklift-license", "excavator-license", "useful-certifications-s
 
 ## 함께 읽으면 좋은 글
 
-- [지게차운전기능사 자격증 정리 – 단기 취득 가능한 실용 자격증, 응시자 수 1위의 비결](/posts/forklift-license)
-- [굴착기운전기능사 자격증 정리 – 지게차와 함께 건설기계 쌍두마차, 중장년 재취업 대표 자격증](/posts/excavator-license)
-- [대학교 교직원이 준비해두면 좋은 자격증 정리](/posts/useful-certifications-staff)
+- [지게차운전기능사 자격증 정리 – 단기 취득 가능한 실용 자격증, 응시자 수 1위의 비결](/post/forklift-license)
+- [굴착기운전기능사 자격증 정리 – 지게차와 함께 건설기계 쌍두마차, 중장년 재취업 대표 자격증](/post/excavator-license)
+- [대학교 교직원이 준비해두면 좋은 자격증 정리](/post/useful-certifications-staff)

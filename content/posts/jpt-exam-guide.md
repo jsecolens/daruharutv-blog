@@ -202,6 +202,6 @@ JPT는 매월 응시 가능하고 빠른 성적 발표, 명확한 점수제라�
 
 ## 함께 읽으면 좋은 글
 
-- [JLPT(일본어능력시험) 완벽 정리 – N5부터 N1까지 레벨별 완전 가이드](/posts/jlpt-exam-guide)
-- [TOEIC 완벽 가이드 – 시험 구성, 점수 체계, 공부법까지](/posts/toeic-guide)
-- [토익스피킹 완벽 가이드 – 레벨 체계부터 공부법까지 총정리](/posts/toeic-speaking-guide)
+- [JLPT(일본어능력시험) 완벽 정리 – N5부터 N1까지 레벨별 완전 가이드](/post/jlpt-exam-guide)
+- [TOEIC 완벽 가이드 – 시험 구성, 점수 체계, 공부법까지](/post/toeic-guide)
+- [토익스피킹 완벽 가이드 – 레벨 체계부터 공부법까지 총정리](/post/toeic-speaking-guide)

@@ -25,6 +25,9 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: `${category.name} - 다루하루TV`,
     description: category.description,
+    alternates: {
+      canonical: `/category/${slug}`,
+    },
   };
 }
 
