@@ -24,10 +24,10 @@ export default async function Home() {
       <section className="mb-12">
         <div className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            교직원 취업 정보 & AI 활용 블로그
+            취업 정보 & AI 활용 블로그
           </h1>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            교직원 취업 준비에 필요한 정보와 AI를 활용한 효율적인 준비 방법을 공유합니다.
+            공공기관, 교직원 취업 준비에 필요한 정보와 AI를 활용한 효율적인 준비 방법을 공유합니다.
           </p>
         </div>
 

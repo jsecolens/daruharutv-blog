@@ -17,8 +17,8 @@ export default function Footer() {
               <span className="text-xl font-bold text-white">다루하루TV 블로그</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              교직원 취업 정보와 AI 활용법을 공유하는 블로그입니다.
-              함께 성장하는 교육 커리어를 응원합니다.
+              공공기관, 교직원 취업 준비에 필요한 정보와 AI를 활용한 효율적인 준비 방법을 공유하는 블로그입니다.
+              함께 성장하는 커리어를 응원합니다.
             </p>
           </div>
 

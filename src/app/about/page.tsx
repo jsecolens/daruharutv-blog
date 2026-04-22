@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About - 다루하루TV',
-  description: '교직원 취업 정보와 AI 활용법을 공유하는 다루하루TV 소개',
+  description: '공공기관, 교직원 취업 준비에 필요한 정보와 AI 활용법을 공유하는 다루하루TV 소개',
 };
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">About 다루하루TV 블로그</h1>
         <p className="text-xl text-gray-600">
-          교직원 취업 정보와 AI 활용법을 공유합니다
+          공공기관, 교직원 취업 준비에 필요한 정보와 AI 활용법을 공유합니다
         </p>
       </header>
 
