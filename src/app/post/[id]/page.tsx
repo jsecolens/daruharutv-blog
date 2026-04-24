@@ -112,6 +112,9 @@ export default async function PostPage({ params }: Props) {
         </div>
       )}
 
+      {/* 본문 시작 직전 광고 */}
+      <AdUnit adSlot="8294951272" adFormat="auto" className="mb-8" />
+
       {/* 본문 - HTML로 렌더링 */}
       {hasEnoughSections ? (
         <>
