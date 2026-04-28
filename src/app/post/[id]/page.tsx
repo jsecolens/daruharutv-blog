@@ -82,11 +82,9 @@ export default async function PostPage({ params }: Props) {
 
   return (
     <div className="relative max-w-7xl mx-auto">
-      {/* 우측 고정 사이드 광고 - xl(1280px) 이상에서만 노출, 본문 영역 내에서 sticky */}
-      <aside className="hidden xl:block absolute top-0 right-4 w-[160px] h-full pointer-events-none">
-        <div className="sticky top-24 pointer-events-auto">
-          <AdUnit adSlot="5272739095" adFormat="auto" />
-        </div>
+      {/* 우측 사이드 광고 - xl(1280px) 이상에서만 노출 */}
+      <aside className="hidden xl:block absolute top-8 right-4 w-[160px]">
+        <AdUnit adSlot="5272739095" adFormat="auto" />
       </aside>
 
       <article className="max-w-4xl mx-auto px-4 py-8">
