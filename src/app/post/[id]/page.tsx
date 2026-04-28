@@ -56,12 +56,29 @@ export default async function PostPage({ params }: Props) {
     .slice(0, 3);
 
   // 본문을 <hr> 기준으로 분할하여 중간에 광고 삽입
+  // - 섹션 7개 이상(긴 글): 1/3, 2/3 지점에 광고 2개
+  // - 섹션 3~6개: 중앙에 광고 1개
+  // - 섹션 3개 미만: 중간 광고 없음
   const contentHtml = post.contentHtml || '';
   const sections = contentHtml.split(/<hr\s*\/?>/);
-  const midpoint = Math.ceil(sections.length / 2);
-  const firstHalf = sections.slice(0, midpoint).join('<hr>');
-  const secondHalf = sections.slice(midpoint).join('<hr>');
+  const isLongPost = sections.length >= 7;
   const hasEnoughSections = sections.length >= 3;
+
+  let firstPart = '';
+  let secondPart = '';
+  let thirdPart = '';
+
+  if (isLongPost) {
+    const firstSplit = Math.floor(sections.length / 3);
+    const secondSplit = Math.floor((sections.length * 2) / 3);
+    firstPart = sections.slice(0, firstSplit).join('<hr>');
+    secondPart = sections.slice(firstSplit, secondSplit).join('<hr>');
+    thirdPart = sections.slice(secondSplit).join('<hr>');
+  } else if (hasEnoughSections) {
+    const midpoint = Math.ceil(sections.length / 2);
+    firstPart = sections.slice(0, midpoint).join('<hr>');
+    secondPart = sections.slice(midpoint).join('<hr>');
+  }
 
   return (
     <article className="max-w-4xl mx-auto px-4 py-8">
@@ -116,17 +133,36 @@ export default async function PostPage({ params }: Props) {
       <AdUnit adSlot="8294951272" adFormat="auto" className="mb-8" />
 
       {/* 본문 - HTML로 렌더링 */}
-      {hasEnoughSections ? (
+      {isLongPost ? (
         <>
           <div
             className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
-            dangerouslySetInnerHTML={{ __html: firstHalf }}
+            dangerouslySetInnerHTML={{ __html: firstPart }}
+          />
+          {/* 포스트 1/3 지점 광고 */}
+          <AdUnit adSlot="2326647252" adFormat="auto" className="my-8" />
+          <div
+            className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
+            dangerouslySetInnerHTML={{ __html: secondPart }}
+          />
+          {/* 포스트 2/3 지점 광고 */}
+          <AdUnit adSlot="6825268570" adFormat="auto" className="my-8" />
+          <div
+            className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
+            dangerouslySetInnerHTML={{ __html: thirdPart }}
+          />
+        </>
+      ) : hasEnoughSections ? (
+        <>
+          <div
+            className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
+            dangerouslySetInnerHTML={{ __html: firstPart }}
           />
           {/* 포스트 중간 광고 */}
           <AdUnit adSlot="2326647252" adFormat="auto" className="my-8" />
           <div
             className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
-            dangerouslySetInnerHTML={{ __html: secondHalf }}
+            dangerouslySetInnerHTML={{ __html: secondPart }}
           />
         </>
       ) : (
