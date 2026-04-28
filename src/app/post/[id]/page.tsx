@@ -151,8 +151,8 @@ export default async function PostPage({ params }: Props) {
             className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
             dangerouslySetInnerHTML={{ __html: secondPart }}
           />
-          {/* 포스트 2/3 지점 광고 */}
-          <AdUnit adSlot="6825268570" adFormat="auto" className="my-8" />
+          {/* 포스트 2/3 지점 광고 (모바일에서는 숨김 - 광고 밀도 조절) */}
+          <AdUnit adSlot="6825268570" adFormat="auto" className="my-8 hidden md:block" />
           <div
             className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
             dangerouslySetInnerHTML={{ __html: thirdPart }}
