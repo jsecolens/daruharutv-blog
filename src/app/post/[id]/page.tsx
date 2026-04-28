@@ -81,7 +81,15 @@ export default async function PostPage({ params }: Props) {
   }
 
   return (
-    <article className="max-w-4xl mx-auto px-4 py-8">
+    <div className="relative max-w-7xl mx-auto">
+      {/* 우측 고정 사이드 광고 - xl(1280px) 이상에서만 노출, 본문 영역 내에서 sticky */}
+      <aside className="hidden xl:block absolute top-0 right-4 w-[160px] h-full pointer-events-none">
+        <div className="sticky top-24 pointer-events-auto">
+          <AdUnit adSlot="5272739095" adFormat="auto" />
+        </div>
+      </aside>
+
+      <article className="max-w-4xl mx-auto px-4 py-8">
       {/* 브레드크럼 */}
       <nav className="flex items-center text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-blue-600">홈</Link>
@@ -231,6 +239,7 @@ export default async function PostPage({ params }: Props) {
           </div>
         </section>
       )}
-    </article>
+      </article>
+    </div>
   );
 }
