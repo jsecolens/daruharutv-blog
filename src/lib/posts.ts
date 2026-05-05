@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
+import gfm from 'remark-gfm';
 import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
@@ -95,7 +96,7 @@ export async function getPostById(id: string): Promise<Post | null> {
     const { data, content } = matter(fileContents);
 
     // 마크다운을 HTML로 변환 (sanitize: false로 HTML 태그 허용)
-    const processedContent = await remark().use(html, { sanitize: false }).process(content);
+    const processedContent = await remark().use(gfm).use(html, { sanitize: false }).process(content);
     const contentHtml = processedContent.toString();
 
     return {
