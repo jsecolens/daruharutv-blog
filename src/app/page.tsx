@@ -36,7 +36,7 @@ export default async function Home() {
           aria-label="대학교 교직원 취업 준비 카테고리 보기"
           className="block group rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
         >
-          <div className="relative aspect-[16/9]">
+          <div className="relative h-80 md:h-96">
             <Image
               src="/images/hero-main.jpg"
               alt="대학교 교직원 취업 준비 — 다루하루TV"
