@@ -31,16 +31,16 @@ export default async function Home() {
         <Link
           href="/category/edu-career"
           aria-label="대학교 교직원 취업 준비 카테고리 보기"
-          className="block group max-w-4xl mx-auto rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
+          className="block group rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
         >
-          <div className="relative aspect-[16/9]">
+          <div className="relative h-[200px] md:h-80 lg:h-[400px]">
             <Image
               src="/images/hero-main.jpg"
               alt="취업 정보 & AI 활용 블로그 — 공공기관, 교직원 취업 준비에 필요한 정보와 AI를 활용한 효율적인 준비 방법을 공유합니다."
               fill
               priority
-              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 896px"
-              className="object-cover group-hover:scale-[1.02] transition-transform duration-500"
+              sizes="(max-width: 768px) 100vw, 1120px"
+              className="object-cover object-[center_30%] group-hover:scale-[1.02] transition-transform duration-500"
             />
           </div>
         </Link>
