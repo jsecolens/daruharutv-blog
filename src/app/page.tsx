@@ -1,13 +1,12 @@
 import PostCard from '@/components/PostCard';
 import Sidebar from '@/components/Sidebar';
 import AdUnit from '@/components/AdUnit';
-import { getAllPosts, categories, getPostById } from '@/lib/posts';
+import { getAllPosts, categories } from '@/lib/posts';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default async function Home() {
   const posts = getAllPosts();
-  // 교무처 글을 히어로 섹션에 고정
-  const featuredPost = await getPostById('academic-affairs-office');
   const recentPosts = posts.slice(0, 4);
 
   // 글이 있는 카테고리만 필터링 후 전반/후반 분리 (중간 광고용)
@@ -31,8 +30,23 @@ export default async function Home() {
           </p>
         </div>
 
-        {/* 피처드 포스트 */}
-        {featuredPost && <PostCard post={featuredPost} featured />}
+        {/* 히어로 배너 - 교직원 취업 준비 카테고리로 연결 */}
+        <Link
+          href="/category/edu-career"
+          aria-label="대학교 교직원 취업 준비 카테고리 보기"
+          className="block group rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
+        >
+          <div className="relative aspect-[16/9]">
+            <Image
+              src="/images/hero-main.jpg"
+              alt="대학교 교직원 취업 준비 — 다루하루TV"
+              fill
+              priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 80vw, 1200px"
+              className="object-cover group-hover:scale-[1.02] transition-transform duration-500"
+            />
+          </div>
+        </Link>
       </section>
 
       <div className="flex flex-col lg:flex-row gap-8">
