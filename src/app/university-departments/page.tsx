@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: '대학교 부서와 하는 일 - 다루하루TV',
   description: '대학교 주요 부서의 역할과 업무를 알아보세요.',
+  alternates: {
+    canonical: '/university-departments',
+  },
 };
 
 const departments = [

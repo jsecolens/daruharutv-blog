@@ -5,6 +5,9 @@ import { getAllPosts } from '@/lib/posts';
 export const metadata: Metadata = {
   title: '공지사항 - 다루하루TV',
   description: '다루하루TV의 공지사항 및 업데이트 소식을 확인하세요.',
+  alternates: {
+    canonical: '/notice',
+  },
 };
 
 export default function NoticePage() {

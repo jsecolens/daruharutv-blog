@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'About - 다루하루TV',
   description: '공공기관, 교직원 취업 준비에 필요한 정보와 AI 활용법을 공유하는 다루하루TV 소개',
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 export default function AboutPage() {
