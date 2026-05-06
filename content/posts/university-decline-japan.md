@@ -6,6 +6,9 @@ excerpt: "일본 정부가 2040년까지 사립대 250곳, 학부 정원 14만 �
 featured: false
 image: "/images/university-decline-japan.jpg"
 relatedPosts: ["university-future", "interview-questions-policy", "university-decline-usa"]
+series:
+  name: "학령인구 감소 시리즈"
+  order: 1
 ---
 
 안녕하세요, 다루하루TV입니다!

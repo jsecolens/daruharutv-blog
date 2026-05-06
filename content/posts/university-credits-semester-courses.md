@@ -6,6 +6,9 @@ excerpt: "대학교 학사 행정의 가장 기본 뼈대인 학점·학기·이
 featured: false
 image: "/images/university-credits-semester-courses.jpg"
 relatedPosts: ["university-class-hours", "university-faculty-types", "university-leave-withdrawal-expulsion"]
+series:
+  name: "교직원 용어 사전"
+  order: 2
 ---
 
 안녕하세요, 다루하루TV입니다!

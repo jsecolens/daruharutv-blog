@@ -6,6 +6,9 @@ excerpt: "학위증 한 장이 학생 손에 전달되기까지, 학적팀에서
 featured: false
 image: "/images/graduation-screening-day.jpg"
 relatedPosts: ["academic-affairs-office", "college-office", "new-semester-ot-preparation"]
+series:
+  name: "교직원 시즌별 업무"
+  order: 3
 ---
 
 안녕하세요, 다루하루TV입니다!

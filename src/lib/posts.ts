@@ -21,6 +21,10 @@ export interface Post {
   youtube?: string;
   featured?: boolean;
   relatedPosts?: string[];
+  series?: {
+    name: string;
+    order: number;
+  };
 }
 
 export const categories = [
@@ -77,6 +81,7 @@ export function getAllPosts(): Post[] {
         youtube: data.youtube,
         featured: data.featured || false,
         relatedPosts: data.relatedPosts || undefined,
+        series: data.series || undefined,
       } as Post;
     });
 
@@ -113,10 +118,17 @@ export async function getPostById(id: string): Promise<Post | null> {
       youtube: data.youtube,
       featured: data.featured || false,
       relatedPosts: data.relatedPosts || undefined,
+      series: data.series || undefined,
     };
   } catch {
     return null;
   }
+}
+
+export function getSeriesPosts(seriesName: string): Post[] {
+  return getAllPosts()
+    .filter((p) => p.series?.name === seriesName)
+    .sort((a, b) => (a.series?.order ?? 0) - (b.series?.order ?? 0));
 }
 
 export function getPostsByCategory(categorySlug: string): Post[] {

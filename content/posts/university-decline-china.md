@@ -6,6 +6,9 @@ excerpt: "유치원 6,000곳 폐교, 2043년 대학 진학 인구 40% 감소 전
 featured: false
 image: "/images/university-decline-china.jpg"
 relatedPosts: ["university-decline-usa", "university-decline-europe", "university-future"]
+series:
+  name: "학령인구 감소 시리즈"
+  order: 3
 ---
 
 안녕하세요, 다루하루TV입니다!

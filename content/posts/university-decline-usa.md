@@ -6,6 +6,9 @@ excerpt: "미국 대학들이 마주한 'Demographic Cliff'. 펜실베이니아 
 featured: false
 image: "/images/university-decline-usa.jpg"
 relatedPosts: ["university-decline-japan", "university-decline-china", "university-future"]
+series:
+  name: "학령인구 감소 시리즈"
+  order: 2
 ---
 
 안녕하세요, 다루하루TV입니다!

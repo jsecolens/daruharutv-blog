@@ -6,6 +6,9 @@ excerpt: "대학교 교원의 신분 체계를 한 번에 정리합니다. 전�
 featured: false
 image: "/images/university-faculty-types.jpg"
 relatedPosts: ["university-class-hours", "university-credits-semester-courses", "university-leave-withdrawal-expulsion"]
+series:
+  name: "교직원 용어 사전"
+  order: 3
 ---
 
 안녕하세요, 다루하루TV입니다!

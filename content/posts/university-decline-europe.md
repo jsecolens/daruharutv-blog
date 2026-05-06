@@ -6,6 +6,9 @@ excerpt: "독일·핀란드의 무료 학비 글로벌 인재 유치, EU의 '위
 featured: false
 image: "/images/university-decline-europe.jpg"
 relatedPosts: ["university-decline-china", "university-decline-japan", "university-future"]
+series:
+  name: "학령인구 감소 시리즈"
+  order: 4
 ---
 
 안녕하세요, 다루하루TV입니다!

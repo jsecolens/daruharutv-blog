@@ -6,6 +6,9 @@ excerpt: "9월 원서접수부터 2월 충원합격까지, 입학팀 교직원�
 featured: false
 image: "/images/admission-screening-season.jpg"
 relatedPosts: ["admission", "students-office", "tuition-billing-season"]
+series:
+  name: "교직원 시즌별 업무"
+  order: 1
 ---
 
 안녕하세요, 다루하루TV입니다!

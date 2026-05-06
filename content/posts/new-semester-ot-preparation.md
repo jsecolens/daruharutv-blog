@@ -6,6 +6,9 @@ excerpt: "3월의 캠퍼스가 새내기로 가득 차기까지, 학생처·교�
 featured: false
 image: "/images/new-semester-ot-preparation.jpg"
 relatedPosts: ["students-office", "academic-affairs-office", "admission-screening-season"]
+series:
+  name: "교직원 시즌별 업무"
+  order: 4
 ---
 
 안녕하세요, 다루하루TV입니다!

@@ -34,10 +34,14 @@ featured: false
 image: "/images/파일명.jpg"
 youtube: "https://www.youtube.com/embed/VIDEO_ID"
 relatedPosts: ["관련글-slug-1", "관련글-slug-2", "관련글-slug-3"]
+series:                       # 시리즈 글일 때만 추가 (선택)
+  name: "시리즈 이름"
+  order: 1
 ---
 ```
 
 - `relatedPosts`: 현재 글과 주제·카테고리가 유사한 기존 포스트 slug을 2~3개 지정 (필수). 사이트에서 카드 형태로 자동 노출됨.
+- `series`: 같은 시리즈에 속한 글 그룹. 같은 `name`을 공유하는 글들은 포스트 페이지 상단에 자동으로 시리즈 네비게이션 위젯으로 노출됨. `order`는 1부터 시작하는 정수.
 
 ### 5. 본문 구조
 

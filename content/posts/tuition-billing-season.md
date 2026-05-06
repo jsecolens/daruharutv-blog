@@ -6,6 +6,9 @@ excerpt: "등록금 고지서 한 장이 학생 손에 들어오기까지, 행�
 featured: false
 image: "/images/tuition-billing-season.jpg"
 relatedPosts: ["general-affairs", "college-office", "academic-affairs-office"]
+series:
+  name: "교직원 시즌별 업무"
+  order: 2
 ---
 
 안녕하세요, 다루하루TV입니다!

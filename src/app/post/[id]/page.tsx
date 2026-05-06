@@ -1,9 +1,10 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { getPostById, getPostsByCategory, getPostsBySlugs, getAllPostIds } from '@/lib/posts';
+import { getPostById, getPostsByCategory, getPostsBySlugs, getAllPostIds, getSeriesPosts } from '@/lib/posts';
 import PostCard from '@/components/PostCard';
 import AdUnit from '@/components/AdUnit';
+import SeriesNav from '@/components/SeriesNav';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -45,6 +46,9 @@ export default async function PostPage({ params }: Props) {
   if (!post) {
     notFound();
   }
+
+  // 시리즈에 속한 경우 같은 시리즈 글 목록
+  const seriesPosts = post.series?.name ? getSeriesPosts(post.series.name) : [];
 
   // 큐레이션된 관련 글 (frontmatter에서 지정)
   const curatedRelatedPosts = post.relatedPosts ? getPostsBySlugs(post.relatedPosts) : [];
@@ -133,6 +137,15 @@ export default async function PostPage({ params }: Props) {
             priority
           />
         </div>
+      )}
+
+      {/* 시리즈 네비게이션 - 시리즈 글일 때만 노출 */}
+      {seriesPosts.length >= 2 && post.series && (
+        <SeriesNav
+          posts={seriesPosts}
+          currentId={post.id}
+          seriesName={post.series.name}
+        />
       )}
 
       {/* 본문 시작 직전 광고 */}

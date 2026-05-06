@@ -6,6 +6,9 @@ excerpt: "교직원이라면 반드시 알아야 할 '수업시수'의 개념을
 featured: false
 image: "/images/university-class-hours.jpg"
 relatedPosts: ["university-credits-semester-courses", "university-faculty-types", "academic-affairs-office"]
+series:
+  name: "교직원 용어 사전"
+  order: 1
 ---
 
 안녕하세요, 다루하루TV입니다!

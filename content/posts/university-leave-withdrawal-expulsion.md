@@ -6,6 +6,9 @@ excerpt: "비슷해 보이지만 효력은 전혀 다른 휴학·자퇴·제적�
 featured: false
 image: "/images/university-leave-withdrawal-expulsion.jpg"
 relatedPosts: ["university-class-hours", "university-credits-semester-courses", "university-faculty-types"]
+series:
+  name: "교직원 용어 사전"
+  order: 4
 ---
 
 안녕하세요, 다루하루TV입니다!
