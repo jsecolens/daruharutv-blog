@@ -1,16 +1,20 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Post } from '@/lib/posts';
+import { Post, type Locale } from '@/lib/posts';
+import { localePrefix } from '@/lib/i18n';
 
 interface PostCardProps {
   post: Post;
   featured?: boolean;
+  locale?: Locale;
 }
 
-export default function PostCard({ post, featured = false }: PostCardProps) {
+export default function PostCard({ post, featured = false, locale = 'ko' }: PostCardProps) {
+  const href = `${localePrefix(locale)}/post/${post.id}`;
+
   if (featured) {
     return (
-      <Link href={`/post/${post.id}`} className="block group">
+      <Link href={href} className="block group">
         <article className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
           <div className="relative h-80 md:h-96">
             {post.thumbnail ? (
@@ -40,7 +44,7 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
   }
 
   return (
-    <Link href={`/post/${post.id}`} className="block group">
+    <Link href={href} className="block group">
       <article className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100">
         <div className="relative h-48">
           {post.thumbnail ? (
@@ -65,7 +69,7 @@ export default function PostCard({ post, featured = false }: PostCardProps) {
           <div className="flex items-center text-xs text-gray-500">
             <span>{post.date}</span>
             <span className="mx-2">·</span>
-            <span>{post.readTime} 읽기</span>
+            <span>{post.readTime}</span>
           </div>
         </div>
       </article>

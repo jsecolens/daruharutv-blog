@@ -1,12 +1,28 @@
-import Link from 'next/link';
+'use client';
 
-const categories = [
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { detectLocaleFromPath, t, localePrefix } from '@/lib/i18n';
+
+const koFooterCategories = [
   { name: '교직원 취업 준비', slug: 'edu-career' },
   { name: '취업과 AI', slug: 'ai-job' },
   { name: 'TOEIC 공부', slug: 'toeic-study' },
 ];
 
+const enFooterCategories = [
+  { name: 'Korean University Life', slug: 'korean-university-life' },
+  { name: 'Study in Korea', slug: 'study-in-korea' },
+  { name: 'Korean Culture 101', slug: 'korean-culture-101' },
+];
+
 export default function Footer() {
+  const pathname = usePathname() ?? '/';
+  const locale = detectLocaleFromPath(pathname);
+  const labels = t(locale);
+  const prefix = localePrefix(locale);
+  const footerCategories = locale === 'en' ? enFooterCategories : koFooterCategories;
+
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="max-w-6xl mx-auto px-4 py-12">
@@ -14,22 +30,19 @@ export default function Footer() {
           {/* 블로그 소개 */}
           <div>
             <div className="mb-4">
-              <span className="text-xl font-bold text-white">다루하루TV 블로그</span>
+              <span className="text-xl font-bold text-white">{labels.siteTitle}</span>
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              공공기관, 교직원 취업 준비에 필요한 정보와 AI를 활용한 효율적인 준비 방법을 공유하는 블로그입니다.
-              함께 성장하는 커리어를 응원합니다.
-            </p>
+            <p className="text-gray-400 text-sm leading-relaxed">{labels.siteIntro}</p>
           </div>
 
           {/* 카테고리 */}
           <div>
-            <h3 className="text-white font-semibold mb-4">카테고리</h3>
+            <h3 className="text-white font-semibold mb-4">{labels.categories}</h3>
             <ul className="space-y-2">
-              {categories.map((category) => (
+              {footerCategories.map((category) => (
                 <li key={category.slug}>
                   <Link
-                    href={`/category/${category.slug}`}
+                    href={`${prefix}/category/${category.slug}`}
                     className="text-gray-400 hover:text-blue-400 transition-colors text-sm"
                   >
                     {category.name}
@@ -41,24 +54,26 @@ export default function Footer() {
 
           {/* 링크 */}
           <div>
-            <h3 className="text-white font-semibold mb-4">링크</h3>
+            <h3 className="text-white font-semibold mb-4">Links</h3>
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/about"
+                  href={`${prefix}/about`}
                   className="text-gray-400 hover:text-blue-400 transition-colors text-sm"
                 >
-                  About
+                  {labels.about}
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/privacy"
-                  className="text-gray-400 hover:text-blue-400 transition-colors text-sm"
-                >
-                  개인정보처리방침
-                </Link>
-              </li>
+              {locale === 'ko' && (
+                <li>
+                  <Link
+                    href="/privacy"
+                    className="text-gray-400 hover:text-blue-400 transition-colors text-sm"
+                  >
+                    {labels.privacy}
+                  </Link>
+                </li>
+              )}
               <li>
                 <a
                   href="https://www.youtube.com/@daruharutv"
@@ -66,7 +81,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-blue-400 transition-colors text-sm flex items-center"
                 >
-                  YouTube
+                  {labels.youtube}
                   <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>

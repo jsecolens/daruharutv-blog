@@ -2,15 +2,18 @@
 
 import { useState } from 'react';
 import PostCard from './PostCard';
-import { Post } from '@/lib/posts';
+import { Post, type Locale } from '@/lib/posts';
+import { t } from '@/lib/i18n';
 
 const POSTS_PER_PAGE = 10;
 
 interface PaginatedPostGridProps {
   posts: Post[];
+  locale?: Locale;
 }
 
-export default function PaginatedPostGrid({ posts }: PaginatedPostGridProps) {
+export default function PaginatedPostGrid({ posts, locale = 'ko' }: PaginatedPostGridProps) {
+  const labels = t(locale);
   const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -25,7 +28,7 @@ export default function PaginatedPostGrid({ posts }: PaginatedPostGridProps) {
   if (posts.length === 0) {
     return (
       <div className="bg-white rounded-xl p-12 text-center">
-        <p className="text-gray-500">아직 작성된 글이 없습니다.</p>
+        <p className="text-gray-500">{labels.noPostsYet}</p>
       </div>
     );
   }
@@ -34,7 +37,7 @@ export default function PaginatedPostGrid({ posts }: PaginatedPostGridProps) {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {currentPosts.map((post) => (
-          <PostCard key={post.id} post={post} />
+          <PostCard key={post.id} post={post} locale={locale} />
         ))}
       </div>
 
@@ -45,7 +48,7 @@ export default function PaginatedPostGrid({ posts }: PaginatedPostGridProps) {
             disabled={currentPage === 1}
             className="px-3 py-2 rounded-lg text-sm text-gray-600 hover:bg-gray-100 disabled:opacity-30 disabled:cursor-not-allowed"
           >
-            ← 이전
+            {labels.prev}
           </button>
 
           {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
@@ -67,7 +70,7 @@ export default function PaginatedPostGrid({ posts }: PaginatedPostGridProps) {
             disabled={currentPage === totalPages}
             className="px-3 py-2 rounded-lg text-sm text-gray-600 hover:bg-gray-100 disabled:opacity-30 disabled:cursor-not-allowed"
           >
-            다음 →
+            {labels.next}
           </button>
         </nav>
       )}

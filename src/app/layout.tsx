@@ -10,6 +10,11 @@ export const metadata: Metadata = {
   keywords: "공공기관 취업, 교직원 취업, 교사 채용, AI 활용, 취업 준비, 면접 팁, 다루하루TV",
   alternates: {
     canonical: '/',
+    languages: {
+      ko: '/',
+      en: '/en',
+      'x-default': '/',
+    },
   },
   openGraph: {
     type: "website",

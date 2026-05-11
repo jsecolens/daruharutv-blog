@@ -1,18 +1,22 @@
 import Link from 'next/link';
-import { Post } from '@/lib/posts';
+import { Post, type Locale } from '@/lib/posts';
+import { t, localePrefix } from '@/lib/i18n';
 
 interface Props {
   posts: Post[];
   currentId: string;
   seriesName: string;
+  locale?: Locale;
 }
 
-export default function SeriesNav({ posts, currentId, seriesName }: Props) {
+export default function SeriesNav({ posts, currentId, seriesName, locale = 'ko' }: Props) {
   if (posts.length < 2) return null;
+  const labels = t(locale);
+  const prefix = localePrefix(locale);
 
   return (
     <section
-      aria-label={`${seriesName} 시리즈 목차`}
+      aria-label={`${seriesName} ${labels.seriesLabel}`}
       className="mb-8 bg-blue-50/60 border border-blue-100 rounded-xl p-5"
     >
       <div className="flex items-center mb-4">
@@ -24,12 +28,12 @@ export default function SeriesNav({ posts, currentId, seriesName }: Props) {
         </span>
         <div>
           <p className="text-xs text-blue-600 font-semibold tracking-wide mb-0.5">
-            시리즈
+            {labels.seriesLabel}
           </p>
           <p className="text-base font-bold text-gray-900">
             {seriesName}{' '}
             <span className="text-gray-500 font-normal text-sm">
-              · 전 {posts.length}편
+              {labels.seriesEpisodeCount(posts.length)}
             </span>
           </p>
         </div>
@@ -52,7 +56,7 @@ export default function SeriesNav({ posts, currentId, seriesName }: Props) {
                       {post.title}
                     </p>
                     <p className="text-xs text-blue-600 font-medium mt-0.5">
-                      현재 글
+                      {labels.seriesCurrent}
                     </p>
                   </div>
                 </div>
@@ -63,7 +67,7 @@ export default function SeriesNav({ posts, currentId, seriesName }: Props) {
           return (
             <li key={post.id}>
               <Link
-                href={`/post/${post.id}`}
+                href={`${prefix}/post/${post.id}`}
                 className="flex items-start gap-3 py-2.5 px-3 rounded-lg hover:bg-white transition-colors group"
               >
                 <span className="flex-shrink-0 w-6 h-6 bg-blue-100 text-blue-700 text-xs font-bold rounded-md flex items-center justify-center mt-0.5 group-hover:bg-blue-500 group-hover:text-white transition-colors">
