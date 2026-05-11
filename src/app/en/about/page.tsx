@@ -7,6 +7,23 @@ export const metadata: Metadata = {
     'DaruharuTV explains Korean university life, study-abroad logistics, and K-culture context for a global audience.',
   alternates: {
     canonical: '/en/about',
+    languages: {
+      ko: '/about',
+      en: '/en/about',
+      'x-default': '/about',
+    },
+  },
+  openGraph: {
+    title: 'About - DaruharuTV',
+    description:
+      'DaruharuTV explains Korean university life, study-abroad logistics, and K-culture context for a global audience.',
+    type: 'website',
+    url: '/en/about',
+    locale: 'en_US',
+    siteName: 'DaruharuTV',
+  },
+  other: {
+    'content-language': 'en',
   },
 };
 

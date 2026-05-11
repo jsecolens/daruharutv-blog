@@ -28,6 +28,21 @@ export async function generateMetadata({ params }: Props) {
     description: category.description,
     alternates: {
       canonical: `/en/category/${slug}`,
+      languages: {
+        en: `/en/category/${slug}`,
+        'x-default': `/en/category/${slug}`,
+      },
+    },
+    openGraph: {
+      title: `${category.name} - DaruharuTV`,
+      description: category.description,
+      type: 'website',
+      url: `/en/category/${slug}`,
+      locale: 'en_US',
+      siteName: 'DaruharuTV',
+    },
+    other: {
+      'content-language': 'en',
     },
   };
 }

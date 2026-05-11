@@ -36,6 +36,10 @@ export async function generateMetadata({ params }: Props) {
     description: post.description,
     alternates: {
       canonical: `/en/post/${id}`,
+      languages: {
+        en: `/en/post/${id}`,
+        'x-default': `/en/post/${id}`,
+      },
     },
     openGraph: {
       title: post.title,
@@ -43,7 +47,16 @@ export async function generateMetadata({ params }: Props) {
       type: 'article',
       url: `/en/post/${id}`,
       locale: 'en_US',
+      siteName: 'DaruharuTV',
       images: post.thumbnail ? [post.thumbnail] : [],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.description,
+    },
+    other: {
+      'content-language': 'en',
     },
   };
 }

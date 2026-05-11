@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     description:
       'A friendly guide to Korean university life, study-abroad logistics, and K-culture context.',
   },
+  other: {
+    'content-language': 'en',
+  },
 };
 
 export default function EnLayout({ children }: { children: React.ReactNode }) {
