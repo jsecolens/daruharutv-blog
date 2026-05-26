@@ -84,6 +84,9 @@ export default async function PostPage({ params }: Props) {
     secondPart = sections.slice(midpoint).join('<hr>');
   }
 
+  // 'notice'는 카테고리 목록에 없고 전용 /notice 페이지가 존재하므로 그쪽으로 링크
+  const categoryHref = post.category === 'notice' ? '/notice' : `/category/${post.category}`;
+
   return (
     <div className="relative max-w-7xl mx-auto">
       {/* 우측 사이드 광고 - xl(1280px) 이상에서만 노출 */}
@@ -98,7 +101,7 @@ export default async function PostPage({ params }: Props) {
         <svg className="w-4 h-4 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
-        <Link href={`/category/${post.category}`} className="hover:text-blue-600">
+        <Link href={categoryHref} className="hover:text-blue-600">
           {post.categoryName}
         </Link>
         <svg className="w-4 h-4 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -110,7 +113,7 @@ export default async function PostPage({ params }: Props) {
       {/* 글 헤더 */}
       <header className="mb-8">
         <Link
-          href={`/category/${post.category}`}
+          href={categoryHref}
           className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-sm font-medium rounded-full mb-4 hover:bg-blue-200 transition-colors"
         >
           {post.categoryName}
