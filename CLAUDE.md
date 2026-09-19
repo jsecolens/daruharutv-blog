@@ -3,21 +3,46 @@
 ## 프로젝트 개요
 - Next.js 기반 블로그 (daruharutv.com)
 - Vercel 연동: GitHub master 브랜치 푸시 시 자동 배포
-- Git remote: `git@github.com:jsecolens/daruharutv-blog.git` (SSH)
+- GitHub 저장소: `jsecolens/daruharutv-blog` (기본 브랜치 `master`)
+  - Mac: `git@github.com:jsecolens/daruharutv-blog.git` (SSH)
+  - Windows: `https://github.com/jsecolens/daruharutv-blog.git` (HTTPS + Git Credential Manager)
+
+## 작업 환경 (OS별)
+
+### Mac
+- 클론 위치: 기존 작업 폴더
+- 이미지 압축: `sips` 사용
+- Git 인증: SSH 키
+
+### Windows (2026-09 부터 사용)
+- 클론 위치: `C:\Users\JS\Desktop\다루하루TV\daruharutv-blog`
+- node / gh 미설치. Git은 winget으로 설치됨 (`C:\Program Files\Git\cmd`)
+- 이미지 압축: `compress-image.ps1` 사용 (PowerShell만으로 동작, node 불필요)
+- Git 인증: Git Credential Manager (브라우저 GitHub 로그인 기반)
+- Claude Code에서 git을 실행할 때 주의사항:
+  - PowerShell PATH에 git이 없을 수 있음 → 명령 앞에 `$env:Path = "C:\Program Files\Git\cmd;" + $env:Path` 추가
+  - 샌드박스 안에서는 `failed to load library 'libcurl-4.dll'` 오류가 나므로 git 명령은 샌드박스를 끄고 실행
+  - `git push` 전에 `$env:GIT_TERMINAL_PROMPT = "1"; $env:GCM_INTERACTIVE = "always"` 설정 (기본값이 프롬프트 차단이라 인증 실패함)
+  - 저장소 로컬 git 사용자: `jsecolens` / `jsecolens@gmail.com` (설정 완료)
 
 ## 글 발행 절차
 
 ### 1. 원본 글 확인
-- 사용자가 바탕화면에 `.md` 파일을 준비함
+- 사용자가 `.md` 파일과 썸네일 이미지를 준비함 (Mac: 바탕화면, Windows: 보통 `C:\Users\JS\Downloads`)
 
 ### 2. 이미지 처리
 - 저장 위치: `public/images/`
-- 원본 이미지를 JPEG로 변환 및 압축 (목표: 100KB 이하)
-- 압축 명령어:
+- 원본 이미지를 JPEG로 변환 및 압축 (목표: 100KB 이하, 최대 너비 800px, 품질 75)
+- 파일명: 포스트 slug과 동일하게 (예: `bad-complaints.jpg`)
+- 압축 명령어 (Mac):
   ```bash
   sips -s format jpeg -s formatOptions 75 -Z 800 "원본경로" --out "public/images/파일명.jpg"
   ```
-- 파일명: 포스트 slug과 동일하게 (예: `bad-complaints.jpg`)
+- 압축 명령어 (Windows, 저장소 루트에서 실행):
+  ```powershell
+  .\compress-image.ps1 -In "C:\Users\JS\Downloads\원본.png" -Out "public\images\파일명.jpg"
+  ```
+  - 결과 크기가 100KB를 넘으면 `-Quality 65` 또는 `-MaxW 700` 옵션으로 조정
 
 ### 3. 포스트 파일 생성
 - 저장 위치: `content/posts/`
@@ -127,6 +152,9 @@ git commit -m "Add new post: 포스트 제목 (파일명.md)"
 git push origin master
 ```
 
+### 9. 배포 확인
+- 푸시 후 약 1~2분 뒤 `https://daruharutv.com/post/slug` 접속해 200 응답과 제목·썸네일 렌더링 확인
+
 ## 카테고리 목록
 
 | slug | 표시 이름 |
@@ -142,7 +170,7 @@ git push origin master
 새 카테고리 추가 시: `src/lib/posts.ts`의 `categoryNameMap` 수정 필요
 
 ## 주의사항
-- 토큰/비밀번호를 대화에 직접 입력하지 말 것 (SSH 키 인증 설정 완료됨)
+- 토큰/비밀번호를 대화에 직접 입력하지 말 것 (Mac: SSH 키, Windows: Git Credential Manager 인증 설정 완료됨)
 - 이미지는 반드시 압축 후 사용
 - 날짜 형식: `YYYY-MM-DD` (따옴표 필수)
 - 날짜는 반드시 시스템의 "오늘 날짜"를 사용할 것 (직접 추측하지 말고 현재 날짜를 정확히 확인)
