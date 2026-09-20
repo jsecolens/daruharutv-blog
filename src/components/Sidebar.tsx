@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { getCategories, getRecentPosts, getPostsByCategory, type Locale } from '@/lib/posts';
 import { t, localePrefix } from '@/lib/i18n';
-import AdUnit from './AdUnit';
 
 interface Props {
   locale?: Locale;
@@ -90,9 +89,6 @@ export default function Sidebar({ locale = 'ko' }: Props) {
           </ul>
         )}
       </div>
-
-      {/* 사이드바 광고 */}
-      <AdUnit adSlot="5331685161" adFormat="auto" className="rounded-xl overflow-hidden" />
     </aside>
   );
 }

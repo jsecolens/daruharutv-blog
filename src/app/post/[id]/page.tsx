@@ -89,11 +89,6 @@ export default async function PostPage({ params }: Props) {
 
   return (
     <div className="relative max-w-7xl mx-auto">
-      {/* 우측 사이드 광고 - xl(1280px) 이상에서만 노출 */}
-      <aside className="hidden xl:block absolute top-8 right-4 w-[160px]">
-        <AdUnit adSlot="5272739095" adFormat="auto" />
-      </aside>
-
       <article className="max-w-4xl mx-auto px-4 py-8">
       {/* 브레드크럼 */}
       <nav className="flex items-center text-sm text-gray-500 mb-6">
@@ -151,8 +146,8 @@ export default async function PostPage({ params }: Props) {
         />
       )}
 
-      {/* 본문 시작 직전 광고 */}
-      <AdUnit adSlot="8294951272" adFormat="auto" className="mb-8" />
+      {/* 본문 시작 직전 광고 - 가로형으로 고정해 첫 화면 안에 들어오도록 */}
+      <AdUnit adSlot="8294951272" adFormat="horizontal" className="mb-8" />
 
       {/* 본문 - HTML로 렌더링 */}
       {isLongPost ? (
@@ -161,14 +156,12 @@ export default async function PostPage({ params }: Props) {
             className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
             dangerouslySetInnerHTML={{ __html: firstPart }}
           />
-          {/* 포스트 1/3 지점 광고 */}
-          <AdUnit adSlot="2326647252" adFormat="auto" className="my-8" />
+          {/* 포스트 1/3 지점 광고 - 인아티클 형식 */}
+          <AdUnit adSlot="2326647252" adLayout="in-article" className="my-8" />
           <div
             className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
             dangerouslySetInnerHTML={{ __html: secondPart }}
           />
-          {/* 포스트 2/3 지점 광고 (모바일에서는 숨김 - 광고 밀도 조절) */}
-          <AdUnit adSlot="6825268570" adFormat="auto" className="my-8 hidden md:block" />
           <div
             className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
             dangerouslySetInnerHTML={{ __html: thirdPart }}
@@ -180,8 +173,8 @@ export default async function PostPage({ params }: Props) {
             className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
             dangerouslySetInnerHTML={{ __html: firstPart }}
           />
-          {/* 포스트 중간 광고 */}
-          <AdUnit adSlot="2326647252" adFormat="auto" className="my-8" />
+          {/* 포스트 중간 광고 - 인아티클 형식 */}
+          <AdUnit adSlot="2326647252" adLayout="in-article" className="my-8" />
           <div
             className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
             dangerouslySetInnerHTML={{ __html: secondPart }}
@@ -238,9 +231,6 @@ export default async function PostPage({ params }: Props) {
           </div>
         </div>
       )}
-
-      {/* 포스트 하단 광고 */}
-      <AdUnit adSlot="7982007036" adFormat="auto" className="mb-8" />
 
       {/* 관련 글 */}
       {relatedPosts.length > 0 && (

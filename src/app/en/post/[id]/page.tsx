@@ -100,10 +100,6 @@ export default async function EnPostPage({ params }: Props) {
 
   return (
     <div className="relative max-w-7xl mx-auto">
-      <aside className="hidden xl:block absolute top-8 right-4 w-[160px]">
-        <AdUnit adSlot="5272739095" adFormat="auto" />
-      </aside>
-
       <article className="max-w-4xl mx-auto px-4 py-8">
         <nav className="flex items-center text-sm text-gray-500 mb-6">
           <Link href="/en" className="hover:text-blue-600">
@@ -160,7 +156,7 @@ export default async function EnPostPage({ params }: Props) {
           />
         )}
 
-        <AdUnit adSlot="8294951272" adFormat="auto" className="mb-8" />
+        <AdUnit adSlot="8294951272" adFormat="horizontal" className="mb-8" />
 
         {isLongPost ? (
           <>
@@ -168,12 +164,11 @@ export default async function EnPostPage({ params }: Props) {
               className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
               dangerouslySetInnerHTML={{ __html: firstPart }}
             />
-            <AdUnit adSlot="2326647252" adFormat="auto" className="my-8" />
+            <AdUnit adSlot="2326647252" adLayout="in-article" className="my-8" />
             <div
               className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
               dangerouslySetInnerHTML={{ __html: secondPart }}
             />
-            <AdUnit adSlot="6825268570" adFormat="auto" className="my-8 hidden md:block" />
             <div
               className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
               dangerouslySetInnerHTML={{ __html: thirdPart }}
@@ -185,7 +180,7 @@ export default async function EnPostPage({ params }: Props) {
               className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
               dangerouslySetInnerHTML={{ __html: firstPart }}
             />
-            <AdUnit adSlot="2326647252" adFormat="auto" className="my-8" />
+            <AdUnit adSlot="2326647252" adLayout="in-article" className="my-8" />
             <div
               className="prose prose-lg max-w-none mb-8 prose-headings:text-gray-900 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-strong:text-gray-900"
               dangerouslySetInnerHTML={{ __html: secondPart }}
@@ -240,8 +235,6 @@ export default async function EnPostPage({ params }: Props) {
             </div>
           </div>
         )}
-
-        <AdUnit adSlot="7982007036" adFormat="auto" className="mb-8" />
 
         {relatedPosts.length > 0 && (
           <section className="border-t border-gray-200 pt-8">
